@@ -1,0 +1,46 @@
+import uvicorn
+from fastapi import FastAPI
+from app.api.routers import exercise, prompt
+from app.core.config import settings
+from app.core.rag import initialize_components
+# from app.core.rag import llm, embedding, vector_store, retriever, rag_chain
+import app.core.rag as rag
+import app.db.session as db
+app = FastAPI(title="English Exercise Generator API")
+
+@app.on_event("startup")
+async def on_startup():
+    initialize_components()
+    await db.init_db()
+    
+@app.get("/health")
+async def health_check():
+    overall_ok = True
+    components = {}
+
+    # 1) Database
+    db_status = await db.health_check_db()
+    components["database"] = db_status
+    if not db_status["ok"]:
+        overall_ok = False
+
+    # 2) RAG pipelines
+    for key in ("ollama", "vertex"):
+        pipe = rag.pipelines.get(key, {})
+        llm_ok    = pipe.get("llm")    is not None
+        chain_ok  = pipe.get("chain")  is not None
+
+        components[f"{key}_llm"] = {"ok": llm_ok}
+        components[f"{key}_chain"] = {"ok": chain_ok}
+
+        if not llm_ok or not chain_ok:
+            overall_ok = False
+
+    status = "healthy" if overall_ok else "degraded"
+    return {"status": status, "components": components}
+
+# 2. Gắn các router
+app.include_router(exercise.router, prefix="/api/exercises", tags=["exercise"])
+app.include_router(prompt.router, prefix="/api/prompts", tags=["prompt"])
+if __name__ == "__main__":
+    uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)

@@ -1,0 +1,3 @@
+pip install --upgrade huggingface-hub transformers sentence-transformers
+pip install --upgrade langchain langchain-community
+pip install --upgrade chromadb

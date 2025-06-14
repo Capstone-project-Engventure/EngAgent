@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy>=1.4
+aiomysql
+pydantic
+python-dotenv
+langchain-community
+langchain
+chromadb
+huggingface-hub
