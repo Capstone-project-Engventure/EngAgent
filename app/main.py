@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
-from app.api.routers import exercise, prompt
+from app.api.routers import exercise, prompt, grammar
 from app.core.config import settings
 from app.core.rag import initialize_components
 # from app.core.rag import llm, embedding, vector_store, retriever, rag_chain
@@ -39,8 +39,19 @@ async def health_check():
     status = "healthy" if overall_ok else "degraded"
     return {"status": status, "components": components}
 
+
+# @app.post("/correct")
+# async def correct_endpoint(request: Request):
+#     data = await request.json()
+#     text = data.get("text", "")
+#     result = correct_and_evaluate(text)
+#     return result
+
+
 # 2. Gắn các router
 app.include_router(exercise.router, prefix="/api/exercises", tags=["exercise"])
 app.include_router(prompt.router, prefix="/api/prompts", tags=["prompt"])
+app.include_router(grammar.router, prefix="/api/grammar", tags=["grammar"])
+
 if __name__ == "__main__":
     uvicorn.run("app.main:app", host="0.0.0.0", port=8000, reload=True)

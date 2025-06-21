@@ -11,7 +11,7 @@ from pptx import Presentation
 import pandas as pd
 
 from langchain.embeddings import VertexAIEmbeddings, HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
+from langchain_community.vectorstores import Chroma
 from langchain.schema import Document
 
 
@@ -51,6 +51,11 @@ SOURCES = {
         "path": DATA_DIR  / "Speaking_Scripts.md",
         "type": "speaking",
     },
+    "level_test":{
+        "path": DATA_DIR / "level_test",
+        "exts": [".pdf", ".docx"],
+        "type": "level_test",
+    }
 }
 
 
@@ -71,11 +76,12 @@ def extract_two_column_pdf(path: Path) -> str:
         for page in pdf.pages:
             left = page.crop((0, 0, page.width/2, page.height)).extract_text() or ""
             right = page.crop((page.width/2, 0, page.width, page.height)).extract_text() or ""
-            # Nối theo đúng thứ tự xuất bản: left dòng 1, right dòng 1, left dòng 2, ...
-            left_lines  = left.splitlines()
-            right_lines = right.splitlines()
-            for l,r in zip(left_lines, right_lines):
-                text += l + " " + r + "\n"
+            # # Nối theo đúng thứ tự xuất bản: left dòng 1, right dòng 1, left dòng 2, ...
+            # left_lines  = left.splitlines()
+            # right_lines = right.splitlines()
+            # for l,r in zip(left_lines, right_lines):
+            #     text += l + " " + r + "\n"
+            text += left + "\n" + right + "\n"
     return text
 
 
@@ -99,15 +105,35 @@ def extract_pptx(path: Path) -> str:
 # Preprocessing & Chunking
 # -------------------------
 
+
+# -------------------------
+# Helpers: detect layout & merge lines
+# -------------------------
 def detect_pdf_layout(path: Path) -> str:
-    # Mở trang đầu, xem số vùng text box
     with pdfplumber.open(path) as pdf:
         page = pdf.pages[0]
-        # nếu crop nửa trái + phải đều có text → 2 cột
-        left = page.crop((0, 0, page.width/2, page.height)).extract_text() or ""
-        right = page.crop((page.width/2, 0, page.width, page.height)).extract_text() or ""
-        return "two-column" if left.strip() and right.strip() else "one-column"
+        left  = page.crop((0,0,page.width/2,page.height)).extract_text() or ""
+        right = page.crop((page.width/2,0,page.width,page.height)).extract_text() or ""
+        if left.strip() and right.strip():
+            return "two-column"
+        return "one-column"
 
+def merge_short_lines(raw: str, min_words: int = 3) -> str:
+    lines = raw.splitlines()
+    merged, buffer = [], ""
+    for line in lines:
+        if len(line.split()) < min_words:
+            buffer += " " + line.strip()
+        else:
+            if buffer and merged:
+                merged[-1] = merged[-1] + buffer
+                buffer = ""
+            merged.append(line)
+    if buffer and merged:
+        merged[-1] += buffer
+    return "\n".join(merged)
+
+   
 def clean_text(txt: str) -> str:
     """Remove headers, footers, ads and normalize unicode."""
     lines = [l.strip() for l in txt.splitlines()]
@@ -128,29 +154,26 @@ def chunk_text(txt: str, min_words=100, max_words=300, overlap=0.2) -> list[str]
             chunks.append(" ".join(piece))
     return chunks
 def parse_grammar_exercise(path: Path, layout: str) -> list[dict]:
-    """
-    Parse a grammar exercise PDF into Q&A chunks using regex.
-    layout: "one-column" hoặc "two-column"
-    """
-    # 1) chọn extractor theo layout
+    # 1) Extract raw
     if layout == "two-column":
         raw = extract_two_column_pdf(path)
     else:
         raw = extract_pdf(path)
-
-    # 2) tách phần Q&A và Answer Key
+    # 2) Merge broken lines
+    raw = merge_short_lines(raw)
+    # 3) Split Q&A vs Answer Key
     parts = re.split(r"Answer Key:", raw, flags=re.IGNORECASE)
     if len(parts) < 2:
         return []
     qa_text, key_text = parts[0], parts[1]
 
-    # 3) build map số câu => đáp án
+    # 4) Build map question→letter
     key_map = {
         m.group(1): m.group(2)
         for m in re.finditer(r"(\d+):\s*([A-D])", key_text)
     }
 
-    # 4) regex lấy từng block Q&A
+    # 4) Regex each block Q&A
     pattern = re.compile(
         r"(\d{1,2})[\.\)]\s*"
         r"(.*?)\s*A\)\s*(.*?)\s*"
@@ -225,7 +248,6 @@ def build_vector_store(chunks_file: Path, persist_dir: Path, embedding):
         chunks = json.load(f)
     # docs = [Document(page_content=c["text"], metadata=c) for c in chunks]
     for c in chunks:
-    # dùng c["text"] làm nội dung index
         docs = []
         docs.append(Document(
             page_content=c["text"],
@@ -236,10 +258,9 @@ def build_vector_store(chunks_file: Path, persist_dir: Path, embedding):
                 "type": c["type"],
                 "level": c["level"],
                 "name": c["name"],
-                # Không cần options+answer lặp lại trong metadata nếu đã có trong text
             }
         ))
-    # embedder = HuggingFaceEmbeddings() # Giải thích model_name="sentence-transformers/all-MiniLM-L6-v2"
+    
     vectordb = Chroma.from_documents(
         docs, embedding=embedding, persist_directory=str(persist_dir)
     )

@@ -7,6 +7,7 @@ class ExerciseRequest(BaseModel):
     level: str
     topic: str
     type: str
+    prompt_name: str
 
 class ExerciseResponse(BaseModel):
     id: int

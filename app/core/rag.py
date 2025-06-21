@@ -83,6 +83,7 @@ def initialize_components():
             location=settings.vertex_location,
             model_name=settings.vertex_llm_model,         # e.g. "gemini-pro"
             credentials=creds,
+            temperature=1, # 0.7 is good but not too creative
         )
         vs_vertex   = build_vector_store(CHUNKS_FILE, VERTEX_DB, embedding=embed_vert)
         retr_vertex = vs_vertex.as_retriever(search_kwargs={"k": 3})
