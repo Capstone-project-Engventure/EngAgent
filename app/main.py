@@ -39,15 +39,6 @@ async def health_check():
     status = "healthy" if overall_ok else "degraded"
     return {"status": status, "components": components}
 
-
-# @app.post("/correct")
-# async def correct_endpoint(request: Request):
-#     data = await request.json()
-#     text = data.get("text", "")
-#     result = correct_and_evaluate(text)
-#     return result
-
-
 # 2. Gắn các router
 app.include_router(exercise.router, prefix="/api/exercises", tags=["exercise"])
 app.include_router(prompt.router, prefix="/api/prompts", tags=["prompt"])
