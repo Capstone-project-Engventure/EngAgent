@@ -1,0 +1,3106 @@
+[
+  {
+    "name": "Literary Analysis MCQ - Exercise 1",
+    "question": "Which of the following best describes the primary theme explored in Shakespeare's 'Hamlet'?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "reading comprehension",
+    "topic": "literary analysis",
+    "lesson": "lesson_reading_001",
+    "generated_by": "Gemini",
+    "description": "Analyze thematic elements in Shakespearean literature.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The joys of royal life and familial harmony."
+      },
+      {
+        "key": "B",
+        "option": "The complexities of grief, revenge, and moral ambiguity."
+      },
+      {
+        "key": "C",
+        "option": "The political intricacies of the Danish court during wartime."
+      },
+      {
+        "key": "D",
+        "option": "The power of unconditional love to overcome adversity."
+      }
+    ],
+    "explanation": "Hamlet delves into the depths of human emotion following the death of his father and the subsequent actions of his uncle. While other themes are present, the core of the play lies in the struggles with morality, grief and revenge."
+  },
+  {
+    "name": "Vocabulary Nuance MCQ - Exercise 2",
+    "question": "Choose the word that most accurately conveys a subtle difference in meaning compared to 'important' in the following sentence: 'It is _________ that we address this issue immediately.'",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "vocabulary",
+    "topic": "nuance",
+    "lesson": "lesson_vocabulary_002",
+    "generated_by": "Gemini",
+    "description": "Demonstrate understanding of subtle vocabulary differences.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Significant"
+      },
+      {
+        "key": "B",
+        "option": "Vital"
+      },
+      {
+        "key": "C",
+        "option": "Imperative"
+      },
+      {
+        "key": "D",
+        "option": "Notable"
+      }
+    ],
+    "explanation": "'Imperative' conveys a sense of urgency and necessity stronger than the other options, fitting the context of immediate action being required. While the others are important, 'imperative' indicates a critical need for action right now."
+  },
+  {
+    "name": "Grammar - Hypothetical Situations - Exercise 3",
+    "question": "Complete the sentence with the most appropriate verb form: 'Had I known about the traffic, I __________ a different route.'",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "grammar",
+    "topic": "hypothetical situations",
+    "lesson": "lesson_grammar_003",
+    "generated_by": "Gemini",
+    "description": "Construct grammatically correct sentences expressing hypothetical situations.",
+    "options": [
+      {
+        "key": "A",
+        "option": "would take"
+      },
+      {
+        "key": "B",
+        "option": "would have taken"
+      },
+      {
+        "key": "C",
+        "option": "will take"
+      },
+      {
+        "key": "D",
+        "option": "would be taking"
+      }
+    ],
+    "explanation": "The correct answer is 'would have taken'. This sentence uses the third conditional, which refers to a hypothetical situation in the past. The structure is 'If + past perfect, would have + past participle'."
+  },
+  {
+    "name": "Writing Style - Formal vs. Informal - Exercise 4",
+    "question": "Which of the following phrases is most appropriate for a formal academic essay discussing the impact of globalization?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "writing",
+    "topic": "style",
+    "lesson": "lesson_writing_004",
+    "generated_by": "Gemini",
+    "description": "Identify language appropriate for a formal academic context.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Globalization is like, totally changing everything."
+      },
+      {
+        "key": "B",
+        "option": "Globalization has had a pretty big effect, you know?"
+      },
+      {
+        "key": "C",
+        "option": "Globalization's impact is sort of interesting."
+      },
+      {
+        "key": "D",
+        "option": "Globalization has demonstrably reshaped international economic structures."
+      }
+    ],
+    "explanation": "Option D utilizes formal language and avoids colloquialisms, making it suitable for academic writing. The other options employ informal language and lack the precision required for a formal essay."
+  },
+  {
+    "name": "Listening Comprehension - Inference - Exercise 5",
+    "question": "Listen to the following audio clip (transcript provided below). Based on the speaker's tone and word choice, what can you infer about their opinion of the new company policy? Transcript: 'Well, the *new* policy... It's certainly... *interesting*. I'm sure it will be *very* effective... eventually.' (Sarcastic tone)",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "listening comprehension",
+    "topic": "inference",
+    "lesson": "lesson_listening_005",
+    "generated_by": "Gemini",
+    "description": "Infer meaning and attitude from spoken discourse.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The speaker is skeptical and likely disagrees with the policy."
+      },
+      {
+        "key": "B",
+        "option": "The speaker is genuinely enthusiastic about the policy's potential."
+      },
+      {
+        "key": "C",
+        "option": "The speaker is indifferent and has no strong feelings about the policy."
+      },
+      {
+        "key": "D",
+        "option": "The speaker is optimistic but cautious about the policy's immediate success."
+      }
+    ],
+    "explanation": "The speaker's use of sarcasm ('interesting', 'very effective') and hesitation indicates disagreement and skepticism towards the new company policy. The emphasis on 'new' also suggests a negative perception."
+  },
+  {
+    "name": "Advanced Grammar Exercise - Passive Voice Transformation",
+    "question": "Which of the following sentences is the most appropriate passive voice transformation of: 'The committee meticulously reviewed all submitted proposals before reaching a decision.'",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "grammar",
+    "topic": "passive voice",
+    "lesson": "grammar_passive_transformation_001",
+    "generated_by": "Gemini",
+    "description": "Choose the best passive voice equivalent, considering nuance and formal tone.",
+    "options": [
+      {
+        "key": "A",
+        "option": "All submitted proposals were reviewed by the committee, then a decision was reached."
+      },
+      {
+        "key": "B",
+        "option": "The proposals had been meticulously reviewed by the committee before the decision was made."
+      },
+      {
+        "key": "C",
+        "option": "Before the decision, the committee reviewed the proposals meticulously."
+      },
+      {
+        "key": "D",
+        "option": "All submitted proposals were meticulously reviewed by the committee prior to a decision being reached."
+      }
+    ],
+    "explanation": "Option D maintains the formality and nuance of the original sentence, employing 'prior to' and the passive voice effectively. Other options are either too informal or change the emphasis."
+  },
+  {
+    "name": "Listening Comprehension - Identifying Subtle Irony",
+    "question": "Listen to the following audio clip. What is the speaker subtly implying through their tone and word choice?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "listening",
+    "topic": "irony",
+    "lesson": "listening_irony_detection_001",
+    "generated_by": "Gemini",
+    "description": "Identify the speaker's underlying meaning based on tone and word choice (audio clip required).",
+    "audio_clip": "audio_clip_irony.mp3",
+    "options": [
+      {
+        "key": "A",
+        "option": "Genuine admiration for the subject."
+      },
+      {
+        "key": "B",
+        "option": "Neutral observation of the events."
+      },
+      {
+        "key": "C",
+        "option": "Sarcastic disapproval masked as praise."
+      },
+      {
+        "key": "D",
+        "option": "Sympathetic understanding of the situation."
+      }
+    ],
+    "explanation": "The correct answer reflects an understanding of the speaker's implied meaning, recognizing the discrepancy between the apparent praise and the underlying sarcasm. The other options misinterpret the speaker's intention."
+  },
+  {
+    "name": "Reading Comprehension - Inference and Implication",
+    "question": "Read the following excerpt: \"The CEO announced record profits, attributing them to 'synergy' and 'innovation.' However, the subsequent internal memo revealed drastic budget cuts and a hiring freeze.\" What can be most reliably inferred about the CEO's announcement?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "reading",
+    "topic": "inference",
+    "lesson": "reading_inference_implication_001",
+    "generated_by": "Gemini",
+    "description": "Make a valid inference based on information within the provided text.",
+    "excerpt": "The CEO announced record profits, attributing them to 'synergy' and 'innovation.' However, the subsequent internal memo revealed drastic budget cuts and a hiring freeze.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The company is genuinely experiencing unprecedented growth."
+      },
+      {
+        "key": "B",
+        "option": "The CEO's public statement is likely a deliberate attempt to conceal underlying financial instability."
+      },
+      {
+        "key": "C",
+        "option": "The budget cuts are unrelated to the company's overall financial performance."
+      },
+      {
+        "key": "D",
+        "option": "The internal memo is inaccurate and does not reflect the true state of affairs."
+      }
+    ],
+    "explanation": "The contrast between the public announcement and the internal memo strongly suggests that the CEO is attempting to mask financial issues. The subsequent actions contradict the initial claims of success."
+  },
+  {
+    "name": "Writing Task - Rhetorical Analysis",
+    "question": "Analyze the following political speech excerpt. Which rhetorical device is MOST prominently used to persuade the audience?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "rhetorical devices",
+    "lesson": "writing_rhetorical_analysis_001",
+    "generated_by": "Gemini",
+    "description": "Identify the primary rhetorical device employed in a given text.",
+    "excerpt": "My fellow citizens, we stand at a crossroads. The path behind us is one of stagnation and decline. The path ahead, while fraught with challenges, leads to prosperity and progress. We must choose wisely, choose courageously, choose the future! The old ways are bankrupt. The new ways offer hope.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Antithesis"
+      },
+      {
+        "key": "B",
+        "option": "Hyperbole"
+      },
+      {
+        "key": "C",
+        "option": "Anaphora"
+      },
+      {
+        "key": "D",
+        "option": "Metaphor"
+      }
+    ],
+    "explanation": "Antithesis, the juxtaposition of contrasting ideas, is the most prominent device, creating a clear 'us vs. them' dynamic. Hyperbole might be present, but it's secondary. Anaphora (repetition at the beginning) is minimal. Metaphor is less direct than the antithetical structure."
+  },
+  {
+    "name": "Speaking - Register and Formality",
+    "question": "Imagine you are a diplomat addressing the United Nations General Assembly. Which of the following opening statements is MOST appropriate for this formal context?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "speaking",
+    "topic": "formality",
+    "lesson": "speaking_register_formality_001",
+    "generated_by": "Gemini",
+    "description": "Select the most suitable opening statement for a highly formal speaking engagement.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Okay, folks, let's get down to business and talk about the elephant in the room."
+      },
+      {
+        "key": "B",
+        "option": "Hi everyone, it's great to be here today to chat about this important issue."
+      },
+      {
+        "key": "C",
+        "option": "Distinguished delegates, it is with great solemnity that I address this esteemed assembly today."
+      },
+      {
+        "key": "D",
+        "option": "So, what's the deal with this whole situation we're facing?"
+      }
+    ],
+    "explanation": "Option C employs the most formal and respectful language appropriate for addressing a gathering of international diplomats at the UN. The other options are too informal or colloquial for such a setting."
+  },
+  {
+    "name": "English Writing Exercise - Exercise 1",
+    "question": "Choose the sentence that most effectively and eloquently uses quantifiers to convey the nuanced impact of technological advancements on societal values in contemporary discourse.",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "quantifiers",
+    "lesson": "lesson_writing_001",
+    "generated_by": "Gemini",
+    "description": "Select the sentence with the most appropriate and sophisticated use of quantifiers to express a complex idea about technology and societal values.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Technology has impacted some societal values a little bit, leading to minor changes in certain areas."
+      },
+      {
+        "key": "B",
+        "option": "Many technological advancements have affected some societal values, causing a few significant shifts in particular aspects."
+      },
+      {
+        "key": "C",
+        "option": "A plethora of technological innovations have profoundly reshaped myriad societal values, fostering widespread transformations across diverse domains."
+      },
+      {
+        "key": "D",
+        "option": "Technology has influenced all of societal values greatly, resulting in complete change everywhere."
+      }
+    ],
+    "explanation": "Option C uses 'plethora' and 'myriad' to accurately reflect the abundant nature of technological advancements and the wide variety of societal values affected. The other options are either too vague or exaggerated to capture the nuanced relationship."
+  },
+  {
+    "name": "English Writing Exercise - Exercise 2",
+    "question": "Which sentence most accurately and elegantly employs quantifiers to depict the subtle variations in public opinion regarding governmental fiscal policy?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "quantifiers",
+    "lesson": "lesson_writing_002",
+    "generated_by": "Gemini",
+    "description": "Identify the sentence that uses quantifiers with precision to describe the nuances of public sentiment towards government economic strategy.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Everyone has the same opinion about the government's money stuff."
+      },
+      {
+        "key": "B",
+        "option": "A significant proportion of the populace expresses nuanced reservations regarding specific tenets of the government's fiscal policy, while a not insignificant minority staunchly advocates for its comprehensive implementation."
+      },
+      {
+        "key": "C",
+        "option": "Some people like the government's money plan, and some people don't."
+      },
+      {
+        "key": "D",
+        "option": "Nobody agrees on the government's financial decisions."
+      }
+    ],
+    "explanation": "Option B demonstrates the precise use of 'significant proportion' and 'not insignificant minority' to depict a complex and differentiated public opinion. Other options are either too simplistic or absolute."
+  },
+  {
+    "name": "English Writing Exercise - Exercise 3",
+    "question": "In the context of academic writing, which sentence demonstrates the most sophisticated and precise use of quantifiers to describe the limitations of a research study?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "quantifiers",
+    "lesson": "lesson_writing_003",
+    "generated_by": "Gemini",
+    "description": "Select the sentence that most effectively utilizes quantifiers to articulate the scope and constraints of a research project.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The study didn't look at everything and only included a few people."
+      },
+      {
+        "key": "B",
+        "option": "The research examined many things and involved a lot of participants."
+      },
+      {
+        "key": "C",
+        "option": "The research didn't consider many factors and only involved some participants."
+      },
+      {
+        "key": "D",
+        "option": "While the present study offers valuable insights, it is constrained by several delimitations, including a finite number of participants and a restricted exploration of extraneous variables."
+      }
+    ],
+    "explanation": "Option D employs formal language and specific quantifiers ('several,' 'finite,' 'restricted') to accurately depict the limitations of academic research. The other options are less precise and lack the necessary formality."
+  },
+  {
+    "name": "English Writing Exercise - Exercise 4",
+    "question": "Which of the following sentences best exemplifies the nuanced use of quantifiers in depicting the impact of globalization on indigenous cultures?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "quantifiers",
+    "lesson": "lesson_writing_004",
+    "generated_by": "Gemini",
+    "description": "Choose the sentence that most subtly and effectively uses quantifiers to describe the complex influence of globalization on native cultures.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Globalization, while ostensibly fostering interconnectedness, has, in myriad instances, precipitated the erosion of select facets of indigenous cultures, with certain traditions facing near obsolescence."
+      },
+      {
+        "key": "B",
+        "option": "Globalization has changed every indigenous culture a lot."
+      },
+      {
+        "key": "C",
+        "option": "Globalization has affected some indigenous cultures in some ways."
+      },
+      {
+        "key": "D",
+        "option": "Globalization hasn't impacted many indigenous cultures."
+      }
+    ],
+    "explanation": "Option A uses 'myriad instances', 'select facets', 'certain traditions' and 'near obsolescence' to express a complex idea about globalization's impact in a nuanced way. The other options are too vague or overly simplistic."
+  },
+  {
+    "name": "English Writing Exercise - Exercise 5",
+    "question": "Select the sentence that most effectively utilizes quantifiers to convey the distribution of resources in a socio-economic context, emphasizing inequality.",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "quantifiers",
+    "lesson": "lesson_writing_005",
+    "generated_by": "Gemini",
+    "description": "Identify the sentence that accurately and powerfully uses quantifiers to illustrate the uneven spread of resources in a society, highlighting disparities.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Everyone has equal amounts of money and things."
+      },
+      {
+        "key": "B",
+        "option": "Some people have a little, and some people have a lot."
+      },
+      {
+        "key": "C",
+        "option": "A disproportionate share of societal resources is concentrated within the hands of a minuscule elite, while a considerable segment of the population contends with abject penury."
+      },
+      {
+        "key": "D",
+        "option": "Nobody has anything."
+      }
+    ],
+    "explanation": "Option C utilizes 'disproportionate share,' 'minuscule elite,' and 'considerable segment' to precisely depict the unequal distribution of resources and its socio-economic implications. The other options are overly simplistic or inaccurate."
+  },
+  {
+    "name": "C1 Reading - Deduction and Modality",
+    "question": "Read the following excerpt from a legal document: 'The defendant, Ms. Abernathy, presented evidence that she was demonstrably in another state during the period in question. Therefore, she ______ have committed the crime.' Which modal verb best completes the sentence, indicating a logical deduction?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "reading",
+    "topic": "modal verbs",
+    "lesson": "modal_verbs_deduction",
+    "generated_by": "Gemini",
+    "description": "Choose the modal verb that expresses the strongest deduction based on the given evidence.",
+    "options": [
+      {
+        "key": "A",
+        "option": "should"
+      },
+      {
+        "key": "B",
+        "option": "might"
+      },
+      {
+        "key": "C",
+        "option": "could"
+      },
+      {
+        "key": "D",
+        "option": "cannot"
+      }
+    ],
+    "explanation": "The correct answer is 'cannot' because it expresses the strongest logical deduction that, given the evidence, it is impossible for Ms. Abernathy to have committed the crime. 'Might' and 'could' express possibility, and 'should' expresses expectation, neither of which fit the context of definitive evidence to the contrary."
+  },
+  {
+    "name": "C1 Reading - Speculation and Prediction",
+    "question": "In a sci-fi short story, a character says, 'Given the current trajectory of interstellar travel technology, we ______ reach Alpha Centauri within the next century.' Which modal verb best conveys a speculative prediction based on current trends?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "reading",
+    "topic": "modal verbs",
+    "lesson": "modal_verbs_prediction",
+    "generated_by": "Gemini",
+    "description": "Select the modal verb that indicates a prediction based on existing evidence and trends, implying a degree of uncertainty.",
+    "options": [
+      {
+        "key": "A",
+        "option": "will"
+      },
+      {
+        "key": "B",
+        "option": "may"
+      },
+      {
+        "key": "C",
+        "option": "must"
+      },
+      {
+        "key": "D",
+        "option": "shall"
+      }
+    ],
+    "explanation": "'May' is the most appropriate choice. 'Will' implies a higher degree of certainty which isn't suitable for speculative predictions. 'Must' indicates necessity, which is incorrect in this context. 'Shall' is less common in making predictions in modern English, especially in this context."
+  },
+  {
+    "name": "C1 Reading - Implied Obligation",
+    "question": "From a company memo: 'All employees are expected to adhere to the new safety protocols. Under no circumstances ______ any deviation from these guidelines be tolerated.' Choose the correct inversion and modal verb to complete the sentence expressing a strong obligation.",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "reading",
+    "topic": "modal verbs",
+    "lesson": "modal_verbs_obligation",
+    "generated_by": "Gemini",
+    "description": "Identify the modal verb that, when used in an inverted sentence structure, expresses the strongest form of obligation.",
+    "options": [
+      {
+        "key": "A",
+        "option": "could"
+      },
+      {
+        "key": "B",
+        "option": "should"
+      },
+      {
+        "key": "C",
+        "option": "must"
+      },
+      {
+        "key": "D",
+        "option": "might"
+      }
+    ],
+    "explanation": "'Must' is the correct answer. The inversion 'Under no circumstances must...' emphasizes the imperative nature of the obligation. The other options lack the required force to express such a strict requirement."
+  },
+  {
+    "name": "C1 Reading - Hypothetical Past",
+    "question": "Considering the economic climate of 1929, a historian writes, 'The government ______ intervened more decisively to prevent the Great Depression, but the prevailing economic ideologies hindered such action.' Which modal verb best expresses a counterfactual situation in the past?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "reading",
+    "topic": "modal verbs",
+    "lesson": "modal_verbs_hypothetical",
+    "generated_by": "Gemini",
+    "description": "Choose the modal verb that indicates something that could have happened in the past but didn't, implying regret or criticism.",
+    "options": [
+      {
+        "key": "A",
+        "option": "should have"
+      },
+      {
+        "key": "B",
+        "option": "would have"
+      },
+      {
+        "key": "C",
+        "option": "could have"
+      },
+      {
+        "key": "D",
+        "option": "might have"
+      }
+    ],
+    "explanation": "'Should have' correctly expresses the historian's judgment that the government ought to have intervened. 'Could have' simply states possibility, 'might have' suggests possibility with less conviction, and 'would have' implies a conditional result, none of which capture the sense of missed obligation as effectively."
+  },
+  {
+    "name": "C1 Reading - Permission and Prohibition",
+    "question": "A sign posted at the entrance to a research facility states: 'Unauthorized personnel ______ enter beyond this point. Only researchers with valid credentials are permitted access.' Select the modal verb that accurately conveys a firm prohibition.",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "reading",
+    "topic": "modal verbs",
+    "lesson": "modal_verbs_permission",
+    "generated_by": "Gemini",
+    "description": "Choose the modal verb that emphatically denies permission to enter a restricted area.",
+    "options": [
+      {
+        "key": "A",
+        "option": "may"
+      },
+      {
+        "key": "B",
+        "option": "must not"
+      },
+      {
+        "key": "C",
+        "option": "need not"
+      },
+      {
+        "key": "D",
+        "option": "can"
+      }
+    ],
+    "explanation": "'Must not' expresses a clear and forceful prohibition. 'May' suggests permission, which is contradictory. 'Need not' implies a lack of necessity, and 'can' is too weak to convey a strict rule."
+  },
+  {
+    "name": "Clothes Vocabulary Exercise",
+    "question": "Which of these is NOT something you wear on your feet?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "vocabulary",
+    "topic": "clothes",
+    "lesson": "clothes_001",
+    "generated_by": "Gemini",
+    "description": "Choose the word that doesn't belong to footwear.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Boots"
+      },
+      {
+        "key": "B",
+        "option": "Slippers"
+      },
+      {
+        "key": "C",
+        "option": "Hat"
+      },
+      {
+        "key": "D",
+        "option": "Sandals"
+      }
+    ],
+    "explanation": "A hat is worn on the head, not on the feet like boots, slippers, and sandals."
+  },
+  {
+    "name": "Daily Routine Exercise",
+    "question": "I ______ my teeth every morning and night.",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "grammar",
+    "topic": "daily routines",
+    "lesson": "routines_002",
+    "generated_by": "Gemini",
+    "description": "Select the correct verb to complete the sentence about a daily routine.",
+    "options": [
+      {
+        "key": "A",
+        "option": "am brushing"
+      },
+      {
+        "key": "B",
+        "option": "brush"
+      },
+      {
+        "key": "C",
+        "option": "brushing"
+      },
+      {
+        "key": "D",
+        "option": "brushes"
+      }
+    ],
+    "explanation": "The correct verb form is 'brush' because it is a simple present tense verb used to describe a regular action."
+  },
+  {
+    "name": "Food & Drinks Exercise",
+    "question": "Which of these is a fruit?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "vocabulary",
+    "topic": "food and drinks",
+    "lesson": "food_003",
+    "generated_by": "Gemini",
+    "description": "Identify the food item that belongs to the category of fruits.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Carrot"
+      },
+      {
+        "key": "B",
+        "option": "Potato"
+      },
+      {
+        "key": "C",
+        "option": "Broccoli"
+      },
+      {
+        "key": "D",
+        "option": "Apple"
+      }
+    ],
+    "explanation": "An apple is a fruit. Carrot, potato, and broccoli are vegetables."
+  },
+  {
+    "name": "Prepositions of Place Exercise",
+    "question": "The cat is ______ the box.",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "grammar",
+    "topic": "prepositions of place",
+    "lesson": "prepositions_004",
+    "generated_by": "Gemini",
+    "description": "Choose the correct preposition to show where the cat is in relation to the box.",
+    "options": [
+      {
+        "key": "A",
+        "option": "in"
+      },
+      {
+        "key": "B",
+        "option": "on"
+      },
+      {
+        "key": "C",
+        "option": "under"
+      },
+      {
+        "key": "D",
+        "option": "next"
+      }
+    ],
+    "explanation": "If the cat is *inside* the box, we use the preposition 'in'."
+  },
+  {
+    "name": "Family Members Exercise",
+    "question": "Your mother's brother is your ______. ",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "vocabulary",
+    "topic": "family",
+    "lesson": "family_005",
+    "generated_by": "Gemini",
+    "description": "Identify the family relationship described in the sentence.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Cousin"
+      },
+      {
+        "key": "B",
+        "option": "Grandfather"
+      },
+      {
+        "key": "C",
+        "option": "Uncle"
+      },
+      {
+        "key": "D",
+        "option": "Nephew"
+      }
+    ],
+    "explanation": "The brother of your mother or father is your uncle."
+  },
+  {
+    "name": "English Reading Exercise - Exercise 1",
+    "question": "Read the sentence: 'I tried to ______ the meeting, but it was too late.' Which phrasal verb best completes the sentence to mean 'attend'?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "phrasal verbs",
+    "lesson": "lesson_reading_001",
+    "generated_by": "Gemini",
+    "description": "Choose the correct phrasal verb to complete the sentence, focusing on understanding meaning in context.",
+    "options": [
+      {
+        "key": "A",
+        "option": "call off"
+      },
+      {
+        "key": "B",
+        "option": "look after"
+      },
+      {
+        "key": "C",
+        "option": "show up to"
+      },
+      {
+        "key": "D",
+        "option": "put off"
+      }
+    ],
+    "explanation": "The correct answer is 'show up to' because it means 'to attend.' 'Call off' means to cancel, 'look after' means to take care of, and 'put off' means to postpone."
+  },
+  {
+    "name": "English Reading Exercise - Exercise 2",
+    "question": "The sentence 'She didn't ______ very well at the new school' implies she had difficulty adjusting. Which phrasal verb fits?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "phrasal verbs",
+    "lesson": "lesson_reading_002",
+    "generated_by": "Gemini",
+    "description": "Determine the correct phrasal verb to complete the sentence to express difficulty adjusting.",
+    "options": [
+      {
+        "key": "A",
+        "option": "grow up"
+      },
+      {
+        "key": "B",
+        "option": "fit in"
+      },
+      {
+        "key": "C",
+        "option": "wake up"
+      },
+      {
+        "key": "D",
+        "option": "take off"
+      }
+    ],
+    "explanation": "'Fit in' means to adapt or belong to a group, which correctly expresses the difficulty of adjusting to the new school. The others don't make sense in this context."
+  },
+  {
+    "name": "English Reading Exercise - Exercise 3",
+    "question": "Read: 'I need to ______ the form before I submit it.' Which phrasal verb means 'complete' in this context?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "phrasal verbs",
+    "lesson": "lesson_reading_003",
+    "generated_by": "Gemini",
+    "description": "Identify the phrasal verb which completes the sentence with the correct meaning.",
+    "options": [
+      {
+        "key": "A",
+        "option": "fill out"
+      },
+      {
+        "key": "B",
+        "option": "give up"
+      },
+      {
+        "key": "C",
+        "option": "look up"
+      },
+      {
+        "key": "D",
+        "option": "find out"
+      }
+    ],
+    "explanation": "'Fill out' means to complete a form. 'Give up' means to quit, 'look up' means to search for information, and 'find out' means to discover."
+  },
+  {
+    "name": "English Reading Exercise - Exercise 4",
+    "question": "The sentence 'The plane is going to ______ at 3 PM.' refers to when the plane will leave the ground. Choose the correct phrasal verb.",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "phrasal verbs",
+    "lesson": "lesson_reading_004",
+    "generated_by": "Gemini",
+    "description": "Select the phrasal verb which refers to a plane leaving the ground.",
+    "options": [
+      {
+        "key": "A",
+        "option": "get on"
+      },
+      {
+        "key": "B",
+        "option": "get off"
+      },
+      {
+        "key": "C",
+        "option": "look at"
+      },
+      {
+        "key": "D",
+        "option": "take off"
+      }
+    ],
+    "explanation": "'Take off' is the phrasal verb that means a plane is leaving the ground. 'Get on' means to board, 'get off' means to disembark, and 'look at' means to observe."
+  },
+  {
+    "name": "English Reading Exercise - Exercise 5",
+    "question": "What does the phrasal verb 'get along with' mean in the sentence 'She doesn't get along with her brother very well.'?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "phrasal verbs",
+    "lesson": "lesson_reading_005",
+    "generated_by": "Gemini",
+    "description": "Identify the meaning of the given phrasal verb, in the context of the sentence.",
+    "options": [
+      {
+        "key": "A",
+        "option": "argue with"
+      },
+      {
+        "key": "B",
+        "option": "have a good relationship with"
+      },
+      {
+        "key": "C",
+        "option": "live near"
+      },
+      {
+        "key": "D",
+        "option": "ignore"
+      }
+    ],
+    "explanation": "'Get along with' means to have a good relationship with someone. In this case, it means she doesn't have a good relationship with her brother."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 1",
+    "question": "Despite __________ meticulous planning, the expedition encountered __________ unforeseen blizzard, testing the limits of their endurance.",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "grammar",
+    "topic": "articles",
+    "lesson": "lesson_grammar_001",
+    "generated_by": "Gemini",
+    "description": "Choose the correct articles to complete the sentence.",
+    "options": [
+      {
+        "key": "A",
+        "option": "a / the"
+      },
+      {
+        "key": "B",
+        "option": "the / a"
+      },
+      {
+        "key": "C",
+        "option": " / an"
+      },
+      {
+        "key": "D",
+        "option": "the / the"
+      }
+    ],
+    "explanation": "The first blank requires no article because 'meticulous planning' is used in a general sense. The second blank requires 'an' because 'unforeseen' begins with a vowel sound."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 2",
+    "question": "Which of the following sentences uses articles correctly in all instances, considering the nuanced implications of each choice?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "grammar",
+    "topic": "articles",
+    "lesson": "lesson_grammar_002",
+    "generated_by": "Gemini",
+    "description": "Identify the sentence with the flawlessly used articles.",
+    "options": [
+      {
+        "key": "A",
+        "option": "He is playing a piano in the concert tonight."
+      },
+      {
+        "key": "B",
+        "option": "The study of astrophysics requires an understanding of mathematics and physics."
+      },
+      {
+        "key": "C",
+        "option": "She went to the hospital to visit an aunt who had a flu."
+      },
+      {
+        "key": "D",
+        "option": "The knowledge is power, and the power corrupts."
+      }
+    ],
+    "explanation": "Option B is correct because it uses 'The' before 'study of astrophysics' to refer to the specific field, and no article is needed before 'mathematics and physics' as they are general subjects. The other options contain incorrect or unnecessary article usage."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 3",
+    "question": "Select the sentence where the absence of an article is grammatically correct and conveys the most appropriate meaning.",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "grammar",
+    "topic": "articles",
+    "lesson": "lesson_grammar_003",
+    "generated_by": "Gemini",
+    "description": "Find the sentence where omitting the article is key to its correctness.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The life is short, and art is long."
+      },
+      {
+        "key": "B",
+        "option": "He enjoys playing the football in the park."
+      },
+      {
+        "key": "C",
+        "option": "She is studying the medicine at the university."
+      },
+      {
+        "key": "D",
+        "option": "They traveled to Italy last summer."
+      }
+    ],
+    "explanation": "Option D is correct because countries generally do not require articles unless part of a larger, descriptive name. The other sentences require articles or have misused them."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 4",
+    "question": "In which sentence is the use of the definite article 'the' crucial for maintaining the intended meaning and clarity?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "grammar",
+    "topic": "articles",
+    "lesson": "lesson_grammar_004",
+    "generated_by": "Gemini",
+    "description": "Determine the sentence where 'the' is essential.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The book I borrowed from the library is overdue."
+      },
+      {
+        "key": "B",
+        "option": "Cats are known for their independence."
+      },
+      {
+        "key": "C",
+        "option": "Water is essential for life."
+      },
+      {
+        "key": "D",
+        "option": "He is studying physics at university."
+      }
+    ],
+    "explanation": "Option A is correct because 'the book' specifies a particular book that was borrowed from the library. Removing 'the' would make the sentence unclear. The other sentences use nouns in a general sense or refer to subjects without needing specification."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 5",
+    "question": "Identify the sentence that exhibits the most sophisticated and idiomatic use of articles, demonstrating a nuanced understanding of their function.",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "grammar",
+    "topic": "articles",
+    "lesson": "lesson_grammar_005",
+    "generated_by": "Gemini",
+    "description": "Choose the sentence demonstrating the best idiomatic use of articles.",
+    "options": [
+      {
+        "key": "A",
+        "option": "She is a architect."
+      },
+      {
+        "key": "B",
+        "option": "He went to a school yesterday."
+      },
+      {
+        "key": "C",
+        "option": "The more you practice, the better you become."
+      },
+      {
+        "key": "D",
+        "option": "I like the coffee."
+      }
+    ],
+    "explanation": "Option C correctly employs 'the' in a correlative construction, indicating a proportional relationship. This use is both grammatically correct and idiomatic. Option A needs 'an', Option B needs more context or the specificity makes it strange, and Option D implies a preference for a specific coffee."
+  },
+  {
+    "name": "Restaurant Order (A2)",
+    "question": "Listen to the conversation. A customer is ordering food. What does the customer WANT to drink?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "listening",
+    "topic": "food orders",
+    "lesson": "restaurant_order",
+    "generated_by": "Gemini",
+    "description": "Listen to the audio clip of a customer ordering food at a restaurant. Choose the correct drink the customer asked for.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Coffee"
+      },
+      {
+        "key": "B",
+        "option": "Lemonade"
+      },
+      {
+        "key": "C",
+        "option": "Tea"
+      },
+      {
+        "key": "D",
+        "option": "Juice"
+      }
+    ],
+    "explanation": "The customer clearly states they want lemonade in the conversation. The other drinks were not mentioned as requests."
+  },
+  {
+    "name": "Directions at a Bus Stop (A2)",
+    "question": "Listen to the announcement at the bus stop. Where is the bus to the museum going NEXT?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "listening",
+    "topic": "directions",
+    "lesson": "bus_stop_directions",
+    "generated_by": "Gemini",
+    "description": "Listen to the announcement and determine the next stop for the bus heading to the museum.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Library"
+      },
+      {
+        "key": "B",
+        "option": "City Hall"
+      },
+      {
+        "key": "C",
+        "option": "Park"
+      },
+      {
+        "key": "D",
+        "option": "Train Station"
+      }
+    ],
+    "explanation": "The announcement specifically mentions that the bus will go to the Park after the current stop. The other locations weren't mentioned in relation to the museum bus."
+  },
+  {
+    "name": "Weather Report (A2)",
+    "question": "Listen to the weather report. What WILL the weather be like tomorrow afternoon?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "listening",
+    "topic": "weather",
+    "lesson": "weather_report_01",
+    "generated_by": "Gemini",
+    "description": "Listen to the weather forecast and choose the correct prediction for tomorrow afternoon.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Rainy"
+      },
+      {
+        "key": "B",
+        "option": "Sunny"
+      },
+      {
+        "key": "C",
+        "option": "Cloudy"
+      },
+      {
+        "key": "D",
+        "option": "Windy"
+      }
+    ],
+    "explanation": "The weather report states that the wind will pick up tomorrow afternoon, making it windy. The other weather conditions aren't predicted for the afternoon."
+  },
+  {
+    "name": "Describing a Person (A2)",
+    "question": "Listen to someone describing their friend. What color IS her friend's hair?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "listening",
+    "topic": "descriptions",
+    "lesson": "person_description",
+    "generated_by": "Gemini",
+    "description": "Listen to the description and identify the color of the person's hair.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Black"
+      },
+      {
+        "key": "B",
+        "option": "Blonde"
+      },
+      {
+        "key": "C",
+        "option": "Brown"
+      },
+      {
+        "key": "D",
+        "option": "Red"
+      }
+    ],
+    "explanation": "The speaker mentions that her friend has black hair. The other colors are not mentioned in the description."
+  },
+  {
+    "name": "Shopping (A2)",
+    "question": "Listen to a conversation at a store. What item DOES the customer buy?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "listening",
+    "topic": "shopping",
+    "lesson": "shopping_01",
+    "generated_by": "Gemini",
+    "description": "Listen to the audio clip of a customer purchasing something at a store. Select the correct item they bought.",
+    "options": [
+      {
+        "key": "A",
+        "option": "A hat"
+      },
+      {
+        "key": "B",
+        "option": "A book"
+      },
+      {
+        "key": "C",
+        "option": "A shirt"
+      },
+      {
+        "key": "D",
+        "option": "A bag"
+      }
+    ],
+    "explanation": "The customer asks for and purchases a book in the store. The other items are not mentioned during the conversation."
+  },
+  {
+    "name": "English Grammar Exercise - C2 Passive Voice - Complex Restructuring",
+    "question": "Which of the following sentences demonstrates the most sophisticated use of passive voice to de-emphasize the agent and focus on the impact of the action, employing a complex sentence structure?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "grammar",
+    "topic": "passive voice",
+    "lesson": "lesson_grammar_001",
+    "generated_by": "Gemini",
+    "description": "Choose the sentence that uses passive voice most effectively to shift focus and employs a more complex sentence structure.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The window was broken by John."
+      },
+      {
+        "key": "B",
+        "option": "Mistakes were made."
+      },
+      {
+        "key": "C",
+        "option": "The project has been completed."
+      },
+      {
+        "key": "D",
+        "option": "Given the substantial evidence presented during the investigation, it has since been determined that a significant oversight had been previously committed, the full repercussions of which are still being assessed."
+      }
+    ],
+    "explanation": "Option D uses a complex sentence structure with passive voice to emphasize the oversight and its ongoing assessment, effectively de-emphasizing the agent and focusing on the consequences. The other options are simpler passive constructions that do not demonstrate the same level of sophistication in manipulating sentence structure and focus."
+  },
+  {
+    "name": "English Vocabulary Exercise - C2 Collocation - Subtle Connotations",
+    "question": "Which of the following best completes the sentence with a word that captures the subtle, almost imperceptible, nature of the change?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "vocabulary",
+    "topic": "collocation",
+    "lesson": "lesson_vocab_001",
+    "generated_by": "Gemini",
+    "description": "Select the word that collocates best with 'change' and carries the most nuanced meaning suitable for a C2 level.",
+    "options": [
+      {
+        "key": "A",
+        "option": "drastic"
+      },
+      {
+        "key": "B",
+        "option": "imperceptible"
+      },
+      {
+        "key": "C",
+        "option": "substantial"
+      },
+      {
+        "key": "D",
+        "option": "fundamental"
+      }
+    ],
+    "explanation": "While 'drastic', 'substantial', and 'fundamental' all describe changes, 'imperceptible' specifically conveys a change so subtle it's almost impossible to notice, reflecting a nuanced understanding of vocabulary appropriate for C2 level. The completed sentence would be: 'The change was imperceptible.'"
+  },
+  {
+    "name": "English Reading Comprehension Exercise - C2 Textual Inference - Author's Stance",
+    "question": "Read the excerpt: 'The relentless pursuit of technological advancement, while undeniably yielding unprecedented conveniences and efficiencies, has simultaneously fostered a culture of superficial engagement, wherein genuine human connection is increasingly relegated to the periphery of existence. This trade-off, often lauded as progress, warrants a more circumspect examination.' What is the author's most likely stance regarding technological advancement?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "reading comprehension",
+    "topic": "textual inference",
+    "lesson": "lesson_reading_001",
+    "generated_by": "Gemini",
+    "description": "Infer the author's opinion based on the nuances of the provided text.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Unreservedly enthusiastic"
+      },
+      {
+        "key": "B",
+        "option": "Mildly supportive"
+      },
+      {
+        "key": "C",
+        "option": "Cautiously critical"
+      },
+      {
+        "key": "D",
+        "option": "Vehemently opposed"
+      }
+    ],
+    "explanation": "The author acknowledges the benefits of technology but expresses concern about its impact on human connection and calls for a 'more circumspect examination.' This indicates a 'cautiously critical' stance, acknowledging the good while questioning the overall effect."
+  },
+  {
+    "name": "English Listening Comprehension Exercise - C2 Nuance - Speaker's Attitude",
+    "question": "You will hear a short audio clip of someone discussing a recent policy change.  After listening, answer the following question: Which of the following best describes the speaker's attitude towards the policy change?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "listening comprehension",
+    "topic": "speaker's attitude",
+    "lesson": "lesson_listening_001",
+    "generated_by": "Gemini",
+    "description": "Listen to the audio and discern the speaker's attitude through subtle vocal cues and word choice. (AUDIO CLIP NEEDED)",
+    "audio_clip": "This would be a link to an audio file. Example: audio/policy_discussion.mp3",
+    "options": [
+      {
+        "key": "A",
+        "option": "Resigned acceptance, tinged with skepticism about its long-term effectiveness."
+      },
+      {
+        "key": "B",
+        "option": "Unbridled enthusiasm and unwavering belief in its positive impact."
+      },
+      {
+        "key": "C",
+        "option": "Outright rejection and strong condemnation of its underlying principles."
+      },
+      {
+        "key": "D",
+        "option": "Neutral objectivity, presenting only factual information without personal opinions."
+      }
+    ],
+    "explanation": "(This explanation requires the AUDIO CLIP to provide specific reasoning based on the speaker's tone and phrasing. The correct answer should reflect the subtle nuances in the audio, such as a slight sigh indicating resignation or a carefully chosen phrase that implies doubt.)"
+  },
+  {
+    "name": "English Writing Exercise - C2 Register - Formal Communication",
+    "question": "You need to formally decline a request to speak at a conference due to a prior commitment. Which of the following responses is most appropriate for a formal, C2-level written communication?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "register",
+    "lesson": "lesson_writing_001",
+    "generated_by": "Gemini",
+    "description": "Select the response that demonstrates the highest level of formality, politeness, and professional tone.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Hey, thanks for the invite! But I'm busy that day. Sorry!"
+      },
+      {
+        "key": "B",
+        "option": "I'm afraid I won't be able to make it. Got something else going on."
+      },
+      {
+        "key": "C",
+        "option": "Nah, I can't. Too much on my plate."
+      },
+      {
+        "key": "D",
+        "option": "I am writing to express my sincere gratitude for your kind invitation to speak at the conference. Regrettably, due to a pre-existing and non-negotiable commitment, I am unable to accept your generous offer at this time. I extend my best wishes for a successful event."
+      }
+    ],
+    "explanation": "Option D exhibits the highest level of formality and politeness suitable for C2-level written communication. It uses sophisticated vocabulary ('sincere gratitude,' 'regrettably,' 'pre-existing,' 'non-negotiable'), avoids colloquialisms, and maintains a respectful tone throughout. The other options are progressively less formal and therefore inappropriate."
+  },
+  {
+    "name": "Clothing Vocabulary MCQ",
+    "question": "Choose the correct word for this picture: [Image of a sweater].",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "vocabulary",
+    "topic": "clothing",
+    "lesson": "lesson_vocab_001",
+    "generated_by": "Gemini",
+    "description": "Test basic clothing vocabulary recognition with a visual aid.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Jacket"
+      },
+      {
+        "key": "B",
+        "option": "Sweater"
+      },
+      {
+        "key": "C",
+        "option": "T-shirt"
+      },
+      {
+        "key": "D",
+        "option": "Coat"
+      }
+    ],
+    "explanation": "A sweater is a knitted garment for the upper body. A jacket and coat are heavier outerwear. A t-shirt is a lighter garment."
+  },
+  {
+    "name": "Daily Routine MCQ",
+    "question": "I _____ breakfast at 7:00 AM every day.",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "grammar",
+    "topic": "present simple",
+    "lesson": "lesson_grammar_002",
+    "generated_by": "Gemini",
+    "description": "Practice using the present simple tense to describe daily routines.",
+    "options": [
+      {
+        "key": "A",
+        "option": "am eating"
+      },
+      {
+        "key": "B",
+        "option": "is eat"
+      },
+      {
+        "key": "C",
+        "option": "eat"
+      },
+      {
+        "key": "D",
+        "option": "eats"
+      }
+    ],
+    "explanation": "\"Eat\" is the correct form of the verb in the present simple tense with the subject \"I\". \"Am eating\" is present continuous. \"Is eat\" is grammatically incorrect. \"Eats\" is used with he/she/it."
+  },
+  {
+    "name": "Directions MCQ",
+    "question": "If someone says 'Go straight, then turn left', what are they giving?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "listening",
+    "topic": "directions",
+    "lesson": "lesson_listening_003",
+    "generated_by": "Gemini",
+    "description": "Identify the purpose of spoken directions.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Directions"
+      },
+      {
+        "key": "B",
+        "option": "A meal"
+      },
+      {
+        "key": "C",
+        "option": "A song"
+      },
+      {
+        "key": "D",
+        "option": "A story"
+      }
+    ],
+    "explanation": "The phrases 'Go straight' and 'Turn left' are used to provide directions to a place. The other options do not relate to movement or navigation."
+  },
+  {
+    "name": "Ordering Food MCQ",
+    "question": "At a restaurant, you say 'Can I have a...' to order?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "speaking",
+    "topic": "food",
+    "lesson": "lesson_speaking_004",
+    "generated_by": "Gemini",
+    "description": "Simulate ordering food in a restaurant using appropriate phrases.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Book?"
+      },
+      {
+        "key": "B",
+        "option": "Car?"
+      },
+      {
+        "key": "C",
+        "option": "Phone?"
+      },
+      {
+        "key": "D",
+        "option": "Menu?"
+      }
+    ],
+    "explanation": "You ask for a menu to see the food choices at a restaurant. Asking for a book, car, or phone is not relevant in this situation."
+  },
+  {
+    "name": "Hobbies Reading Comprehension MCQ",
+    "question": "Read this sentence: 'She likes to read books and play the piano in her free time.' What are her hobbies?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "reading",
+    "topic": "hobbies",
+    "lesson": "lesson_reading_005",
+    "generated_by": "Gemini",
+    "description": "Identify hobbies from a simple sentence.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Cooking and swimming"
+      },
+      {
+        "key": "B",
+        "option": "Reading and playing piano"
+      },
+      {
+        "key": "C",
+        "option": "Dancing and singing"
+      },
+      {
+        "key": "D",
+        "option": "Running and jumping"
+      }
+    ],
+    "explanation": "The sentence explicitly states that she likes to read books and play the piano. The other options are not mentioned in the sentence."
+  },
+  {
+    "name": "Reported Speech Transformation - Exercise 1",
+    "question": "Which of the following sentences correctly transforms the direct speech: 'I will finish this report by Friday,' she said, into reported speech?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "grammar",
+    "topic": "reported speech",
+    "lesson": "lesson_grammar_001",
+    "generated_by": "Gemini",
+    "description": "Choose the correct transformation of direct speech into reported speech, focusing on tense changes and pronoun adjustments.",
+    "options": [
+      {
+        "key": "A",
+        "option": "She said she will finish this report by Friday."
+      },
+      {
+        "key": "B",
+        "option": "She said that she would finish that report by Friday."
+      },
+      {
+        "key": "C",
+        "option": "She said she is going to finish this report by Friday."
+      },
+      {
+        "key": "D",
+        "option": "She said that I would finish that report by Friday."
+      }
+    ],
+    "explanation": "Option B is correct because 'will' changes to 'would' and 'this' changes to 'that' in reported speech. Other options either retain incorrect tenses or pronouns."
+  },
+  {
+    "name": "Reported Speech with Question - Exercise 2",
+    "question": "Which of the following is the correct reported form of the question: 'Have you ever been to Japan?' he asked me.",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "grammar",
+    "topic": "reported speech",
+    "lesson": "lesson_grammar_002",
+    "generated_by": "Gemini",
+    "description": "Convert the direct question into reported speech, paying attention to word order and the introduction of 'if' or 'whether'.",
+    "options": [
+      {
+        "key": "A",
+        "option": "He asked me have I ever been to Japan."
+      },
+      {
+        "key": "B",
+        "option": "He asked me that had I ever been to Japan."
+      },
+      {
+        "key": "C",
+        "option": "He asked me if I had ever been to Japan."
+      },
+      {
+        "key": "D",
+        "option": "He asked me whether I have ever been to Japan."
+      }
+    ],
+    "explanation": "Option C is correct because it uses 'if' to introduce the reported question and correctly shifts the tense from present perfect to past perfect. The other options have incorrect word order or tense usage."
+  },
+  {
+    "name": "Reported Speech with Commands - Exercise 3",
+    "question": "Choose the best reported version of the command: 'Don't forget to buy milk,' she told him.",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "grammar",
+    "topic": "reported speech",
+    "lesson": "lesson_grammar_003",
+    "generated_by": "Gemini",
+    "description": "Focus on how commands and requests are transformed into reported speech using 'to' infinitives.",
+    "options": [
+      {
+        "key": "A",
+        "option": "She told him not to forget to buy milk."
+      },
+      {
+        "key": "B",
+        "option": "She said him don't forget to buy milk."
+      },
+      {
+        "key": "C",
+        "option": "She told him to not forget to buy milk."
+      },
+      {
+        "key": "D",
+        "option": "She told him that he shouldn't forget to buy milk."
+      }
+    ],
+    "explanation": "Option A is the most natural and grammatically correct way to report a negative command. 'Not to forget' is the standard construction. The other options are either ungrammatical or less idiomatic."
+  },
+  {
+    "name": "Reported Speech: Time Expressions - Exercise 4",
+    "question": "Select the sentence that correctly uses reported speech, adjusting the time expression appropriately: 'I'll see you tomorrow,' John said.",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "grammar",
+    "topic": "reported speech",
+    "lesson": "lesson_grammar_004",
+    "generated_by": "Gemini",
+    "description": "Test the ability to change time expressions (e.g., tomorrow, yesterday, today) correctly when using reported speech.",
+    "options": [
+      {
+        "key": "A",
+        "option": "John said he will see me tomorrow."
+      },
+      {
+        "key": "B",
+        "option": "John said he would see me tomorrow."
+      },
+      {
+        "key": "C",
+        "option": "John said he would see me the day after."
+      },
+      {
+        "key": "D",
+        "option": "John said he would see me the following day."
+      }
+    ],
+    "explanation": "Option D is correct. 'Tomorrow' changes to 'the following day' or 'the next day' in reported speech. Option C is also correct, but option D is more commonly used and emphasizes vocabulary variation in reported speech."
+  },
+  {
+    "name": "Mixed Reported Speech - Exercise 5",
+    "question": "What is the most accurate reported version of: 'Where are you going?' she asked. 'I'm going to the library,' he replied.",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "grammar",
+    "topic": "reported speech",
+    "lesson": "lesson_grammar_005",
+    "generated_by": "Gemini",
+    "description": "Practice reporting both a question and a statement within the same context, paying attention to tense changes and conjunctions.",
+    "options": [
+      {
+        "key": "A",
+        "option": "She asked where he is going and he said he is going to the library."
+      },
+      {
+        "key": "B",
+        "option": "She asked where he was going, and he replied that he was going to the library."
+      },
+      {
+        "key": "C",
+        "option": "She asked where was he going, and he replied he is going to the library."
+      },
+      {
+        "key": "D",
+        "option": "She asked him where he was going, and he replied that he will go to the library."
+      }
+    ],
+    "explanation": "Option B is correct. It correctly changes the tenses ('is going' to 'was going') and uses the conjunction 'that' appropriately. Other options fail to maintain consistent and correct tense usage."
+  },
+  {
+    "name": "Formal Email: Requesting Information",
+    "question": "You need to request detailed information about a conference from the organizers. Which opening sentence is the MOST appropriate for a formal email?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "writing",
+    "topic": "formal email",
+    "lesson": "writing_formal_email_001",
+    "generated_by": "Gemini",
+    "description": "Choose the best opening for a formal email.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Hey! Just wanted to know more about the conference."
+      },
+      {
+        "key": "B",
+        "option": "I'm writing to ask you some stuff about your conference."
+      },
+      {
+        "key": "C",
+        "option": "I am writing to request further information regarding the upcoming conference."
+      },
+      {
+        "key": "D",
+        "option": "Yo, tell me about the conference, yeah?"
+      }
+    ],
+    "explanation": "Option C is the most formal and polite, suitable for a professional email requesting information. A, B, and D are too informal for this context."
+  },
+  {
+    "name": "Essay Structure: Argumentative Essay",
+    "question": "In an argumentative essay, where should you typically present the counter-argument (the opposing viewpoint) and your rebuttal to it?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "writing",
+    "topic": "essay structure",
+    "lesson": "writing_essay_argumentative_001",
+    "generated_by": "Gemini",
+    "description": "Choose the best placement for a counter-argument in an essay.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Only in the conclusion."
+      },
+      {
+        "key": "B",
+        "option": "In a body paragraph, typically before presenting a stronger supporting argument."
+      },
+      {
+        "key": "C",
+        "option": "Only in the introduction to grab the reader's attention."
+      },
+      {
+        "key": "D",
+        "option": "Nowhere. An argumentative essay should only focus on supporting your own viewpoint."
+      }
+    ],
+    "explanation": "Presenting and refuting the counter-argument in a body paragraph strengthens your argument by acknowledging and addressing opposing viewpoints. The other options are incorrect placements or disregard the counter-argument."
+  },
+  {
+    "name": "Report Writing: Objectivity",
+    "question": "You are writing a report on a new company policy. Which sentence is the MOST OBJECTIVE and suitable for the report?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "writing",
+    "topic": "report writing",
+    "lesson": "writing_report_001",
+    "generated_by": "Gemini",
+    "description": "Choose the most objective sentence for a report.",
+    "options": [
+      {
+        "key": "A",
+        "option": "This new policy is absolutely fantastic and will surely improve morale."
+      },
+      {
+        "key": "B",
+        "option": "The policy is clearly a terrible idea and will be detrimental to productivity."
+      },
+      {
+        "key": "C",
+        "option": "The new policy is implemented with the best of intentions and will fix problems in the workplace"
+      },
+      {
+        "key": "D",
+        "option": "The new policy outlines revised procedures for employee time management, effective January 1st."
+      }
+    ],
+    "explanation": "Option D is objective because it presents a factual statement without expressing personal opinions or emotions. Options A, B, and C contain subjective judgments."
+  },
+  {
+    "name": "Descriptive Writing: Sensory Detail",
+    "question": "You are describing a bustling marketplace. Which sentence effectively uses sensory detail to create a vivid image?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "writing",
+    "topic": "descriptive writing",
+    "lesson": "writing_descriptive_001",
+    "generated_by": "Gemini",
+    "description": "Choose the sentence with best sensory description.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The marketplace was very crowded."
+      },
+      {
+        "key": "B",
+        "option": "Many people were buying and selling things."
+      },
+      {
+        "key": "C",
+        "option": "The air buzzed with the aroma of frying spices, the calls of vendors hawking their wares, and the jostle of bodies weaving through the narrow stalls."
+      },
+      {
+        "key": "D",
+        "option": "The marketplace was located in the center of town."
+      }
+    ],
+    "explanation": "Option C uses sensory details (smell, sound, touch) to create a vivid and immersive experience for the reader. The other options are bland and lack detail."
+  },
+  {
+    "name": "Narrative Writing: Show, Don't Tell",
+    "question": "Which sentence 'shows' a character's nervousness, rather than 'telling' the reader?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "writing",
+    "topic": "narrative writing",
+    "lesson": "writing_narrative_001",
+    "generated_by": "Gemini",
+    "description": "Choose the sentence that shows rather than tells.",
+    "options": [
+      {
+        "key": "A",
+        "option": "He was very nervous about the presentation."
+      },
+      {
+        "key": "B",
+        "option": "She felt incredibly anxious."
+      },
+      {
+        "key": "C",
+        "option": "He was a nervous person."
+      },
+      {
+        "key": "D",
+        "option": "His palms were slick with sweat, and he kept adjusting his tie, as if it were choking him."
+      }
+    ],
+    "explanation": "Option D 'shows' nervousness through physical actions and sensations. The other options simply 'tell' the reader that the character is nervous, lacking impactful imagery."
+  },
+  {
+    "name": "Grammar MCQ - Defining Relative Clauses",
+    "question": "Which sentence correctly uses a defining relative clause to identify the specific book being referred to?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "grammar",
+    "topic": "relative clauses",
+    "lesson": "lesson_grammar_001",
+    "generated_by": "Gemini",
+    "description": "Identify the correct use of a defining relative clause.",
+    "options": [
+      {
+        "key": "A",
+        "option": "My book, which is about history, is interesting."
+      },
+      {
+        "key": "B",
+        "option": "The book that I borrowed from the library is due next week."
+      },
+      {
+        "key": "C",
+        "option": "I read a book, which was quite long."
+      },
+      {
+        "key": "D",
+        "option": "That is my book, who I love."
+      }
+    ],
+    "explanation": "Option B is correct because the relative clause 'that I borrowed from the library' defines which specific book is being referred to. The other options either use non-defining relative clauses or incorrect grammar."
+  },
+  {
+    "name": "Vocabulary MCQ - Collocations with 'Make'",
+    "question": "Which of the following completes the sentence correctly: 'The company is trying to _______ a profit this year.'?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "vocabulary",
+    "topic": "collocations",
+    "lesson": "lesson_vocabulary_002",
+    "generated_by": "Gemini",
+    "description": "Choose the correct collocation with 'make'.",
+    "options": [
+      {
+        "key": "A",
+        "option": "make"
+      },
+      {
+        "key": "B",
+        "option": "do"
+      },
+      {
+        "key": "C",
+        "option": "create"
+      },
+      {
+        "key": "D",
+        "option": "gain"
+      }
+    ],
+    "explanation": "'Make a profit' is a common collocation. While the other words relate to increasing money, 'make' is the correct verb used in this established phrase."
+  },
+  {
+    "name": "Reading Comprehension MCQ - Identifying Main Idea",
+    "question": "Read the following short paragraph: 'The use of smartphones has dramatically changed the way people communicate. Instant messaging, social media, and video calls have become ubiquitous. While these technologies offer convenience and connectivity, they also raise concerns about privacy and the potential for addiction.' What is the main idea of this paragraph?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "reading comprehension",
+    "topic": "identifying main idea",
+    "lesson": "lesson_reading_003",
+    "generated_by": "Gemini",
+    "description": "Identify the main idea of a short paragraph.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Smartphones are primarily used for video calls."
+      },
+      {
+        "key": "B",
+        "option": "Social media is the most important smartphone application."
+      },
+      {
+        "key": "C",
+        "option": "Privacy is no longer possible with smartphones."
+      },
+      {
+        "key": "D",
+        "option": "Smartphones have changed communication but also present challenges."
+      }
+    ],
+    "explanation": "Option D accurately captures the central theme of the paragraph, which discusses both the transformative effects and the potential problems associated with smartphone use. The other options focus on specific details rather than the overall message."
+  },
+  {
+    "name": "Listening Comprehension MCQ - Understanding Instructions",
+    "question": "You hear the following announcement at an airport: 'Attention passengers, flight BA249 to Rome is now boarding at Gate 32. Please have your boarding pass and passport ready for inspection. Passengers requiring assistance should approach the desk near the gate.' What should passengers do?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "listening comprehension",
+    "topic": "understanding instructions",
+    "lesson": "lesson_listening_004",
+    "generated_by": "Gemini",
+    "description": "Understand and interpret spoken instructions in an announcement.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Go to Gate 32 with their boarding pass and passport."
+      },
+      {
+        "key": "B",
+        "option": "Go to the desk near Gate 32 regardless of needing assistance."
+      },
+      {
+        "key": "C",
+        "option": "Wait for another announcement before going to the gate."
+      },
+      {
+        "key": "D",
+        "option": "Go to any gate to board the flight to Rome."
+      }
+    ],
+    "explanation": "The announcement clearly states that passengers should proceed to Gate 32 with their boarding pass and passport ready for inspection.  Assistance is offered at the desk for those who require it, not for everyone."
+  },
+  {
+    "name": "Writing MCQ - Formal Letter Closing",
+    "question": "You are writing a formal letter to a potential employer. Which of the following is the most appropriate closing?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "writing",
+    "topic": "formal letter writing",
+    "lesson": "lesson_writing_005",
+    "generated_by": "Gemini",
+    "description": "Choose the correct formal letter closing.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Cheers,"
+      },
+      {
+        "key": "B",
+        "option": "Later,"
+      },
+      {
+        "key": "C",
+        "option": "Yours sincerely,"
+      },
+      {
+        "key": "D",
+        "option": "Best wishes,"
+      }
+    ],
+    "explanation": "'Yours sincerely' is the most appropriate formal closing to use when you know the name of the person you are writing to.  'Best wishes' is more informal. 'Cheers' and 'Later' are highly informal and unsuitable for a formal letter."
+  },
+  {
+    "name": "Advanced Conditionals - Unfulfilled Potential",
+    "question": "Which sentence MOST accurately conveys the hypothetical scenario where a renowned scientist chose a different research path, leading to a vastly accelerated technological advancement in renewable energy?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "conditional sentences",
+    "lesson": "conditionals_001",
+    "generated_by": "Gemini",
+    "description": "Select the sentence that best uses a mixed conditional to express an unreal past condition and its present result in the context of scientific achievement.",
+    "options": [
+      {
+        "key": "A",
+        "option": "If she had focused on solar power from the outset, we would have been enjoying clean, abundant energy today."
+      },
+      {
+        "key": "B",
+        "option": "Had she focused on solar power from the outset, we are enjoying clean, abundant energy today."
+      },
+      {
+        "key": "C",
+        "option": "Had she focused on solar power from the outset, we might now be enjoying clean, abundant energy on a global scale, rather than still grappling with fossil fuels."
+      },
+      {
+        "key": "D",
+        "option": "If she focused on solar power from the outset, we would enjoy clean, abundant energy today."
+      }
+    ],
+    "explanation": "Option C correctly uses the mixed conditional (past perfect + conditional perfect) to emphasize the hypothetical past action's potential impact on the present. Options A and D lack the nuance of conveying the unfulfilled potential. Option B incorrectly uses the present continuous 'are enjoying' which doesn't fit the hypothetical scenario."
+  },
+  {
+    "name": "Counterfactual History and Linguistics",
+    "question": "Choose the sentence that BEST illustrates a counterfactual situation relating to the evolution of the English language.",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "conditional sentences",
+    "lesson": "conditionals_002",
+    "generated_by": "Gemini",
+    "description": "Choose the most appropriate counterfactual conditional sentence to express an alternative historical linguistic development.",
+    "options": [
+      {
+        "key": "A",
+        "option": "If the Norman invasion didn't happen, English is a Germanic language."
+      },
+      {
+        "key": "B",
+        "option": "If the Norman invasion hadn't happened, English would be a Germanic language."
+      },
+      {
+        "key": "C",
+        "option": "If the Norman invasion didn't happen, English will be a Germanic language."
+      },
+      {
+        "key": "D",
+        "option": "Had the Norman invasion not occurred, English might bear a far closer resemblance to its Germanic roots, and the vocabulary would be drastically different."
+      }
+    ],
+    "explanation": "Option D accurately depicts the hypothetical impact of the Norman invasion using a past perfect conditional to illustrate a different trajectory for the English language. Options A, B, and C use incorrect tense combinations which disrupt the meaning of the counterfactual statement."
+  },
+  {
+    "name": "Ethical Dilemmas - The Butterfly Effect",
+    "question": "In the context of ethical decision-making, which sentence MOST effectively uses a conditional structure to explore the potential ramifications of a seemingly insignificant action?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "conditional sentences",
+    "lesson": "conditionals_003",
+    "generated_by": "Gemini",
+    "description": "Identify the sentence which correctly expresses a conditional scenario that explores the ripple effect of a small ethical choice.",
+    "options": [
+      {
+        "key": "A",
+        "option": "If I hadn't lied about my credentials, I am not in this situation now."
+      },
+      {
+        "key": "B",
+        "option": "Had I not initially misrepresented my credentials, the subsequent chain of events leading to this ethical quagmire might never have unfolded."
+      },
+      {
+        "key": "C",
+        "option": "If I don't lie about my credentials, I will not be in this situation."
+      },
+      {
+        "key": "D",
+        "option": "If I wouldn't have lied about my credentials, I wouldn't be in this situation now."
+      }
+    ],
+    "explanation": "Option B correctly utilizes a past perfect conditional to demonstrate how a past action (misrepresenting credentials) could have altered the present situation, highlighting the butterfly effect in ethical decision-making. Options A, C, and D use incorrect tense combinations and don't properly convey the complex hypothetical relationship."
+  },
+  {
+    "name": "Regret and Missed Opportunities",
+    "question": "Which sentence BEST articulates a deep sense of regret concerning a missed opportunity, using a sophisticated conditional construction?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "conditional sentences",
+    "lesson": "conditionals_004",
+    "generated_by": "Gemini",
+    "description": "Choose the sentence that most effectively expresses profound regret about a past action using an advanced conditional structure.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Were I to have known then what I know now, I would have seized that opportunity without hesitation, and my life would be unrecognizably different today."
+      },
+      {
+        "key": "B",
+        "option": "If I know then what I know now, I would have seized that opportunity."
+      },
+      {
+        "key": "C",
+        "option": "If I would have known then what I know now, I would seize that opportunity."
+      },
+      {
+        "key": "D",
+        "option": "If I knew then what I know now, I would have seized that opportunity."
+      }
+    ],
+    "explanation": "Option A uses an inverted conditional ('Were I to have known...') which adds emphasis and formality, reflecting the depth of regret. It also accurately combines a past hypothetical condition with its present result. Options B, C, and D use incorrect tense sequences, diminishing the impact and accuracy of the expression of regret."
+  },
+  {
+    "name": "Speculative Fiction - Alternate Realities",
+    "question": "In the context of speculative fiction, which sentence most convincingly sets up an alternate reality governed by different physical laws, using a suitable conditional clause?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C2",
+    "skill": "writing",
+    "topic": "conditional sentences",
+    "lesson": "conditionals_005",
+    "generated_by": "Gemini",
+    "description": "Select the sentence that uses a conditional structure to introduce an alternate reality with altered physical laws in a piece of speculative fiction.",
+    "options": [
+      {
+        "key": "A",
+        "option": "If gravity doesn't exist, people are flying all the time."
+      },
+      {
+        "key": "B",
+        "option": "If gravity didn't exist, people would be flying all the time."
+      },
+      {
+        "key": "C",
+        "option": "Were gravity to cease functioning as we understand it, the denizens of Aerilon would navigate their floating islands with an even more breathtaking agility than they currently display."
+      },
+      {
+        "key": "D",
+        "option": "If gravity ceased functioning, people are flying all the time."
+      }
+    ],
+    "explanation": "Option C utilizes an inverted conditional ('Were gravity to cease...') to introduce the hypothetical scenario with a heightened sense of plausibility and intrigue appropriate for speculative fiction. It maintains a formal tone and builds on the hypothetical scenario to describe the impact. Options A, B and D lack the sophistication and imaginative detail necessary to successfully set the stage for this fictional reality."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 1",
+    "question": "You ______ wear a uniform at this school. It's not necessary.",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "grammar",
+    "topic": "modal verbs",
+    "lesson": "lesson_grammar_001",
+    "generated_by": "Gemini",
+    "description": "Choose the correct modal verb to express lack of obligation.",
+    "options": [
+      {
+        "key": "A",
+        "option": "must"
+      },
+      {
+        "key": "B",
+        "option": "can"
+      },
+      {
+        "key": "C",
+        "option": "don't have to"
+      },
+      {
+        "key": "D",
+        "option": "mustn't"
+      }
+    ],
+    "explanation": "'Don't have to' expresses that something is not required. 'Must' expresses obligation, 'can' expresses ability or possibility, and 'mustn't' expresses prohibition."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 2",
+    "question": "______ you help me carry these bags, please?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "grammar",
+    "topic": "modal verbs",
+    "lesson": "lesson_grammar_002",
+    "generated_by": "Gemini",
+    "description": "Select the most appropriate modal verb for making a polite request.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Must"
+      },
+      {
+        "key": "B",
+        "option": "Could"
+      },
+      {
+        "key": "C",
+        "option": "Should"
+      },
+      {
+        "key": "D",
+        "option": "May"
+      }
+    ],
+    "explanation": "'Could' is a polite way to ask someone to do something. 'Must' expresses obligation, 'should' expresses advice, and 'may' requests permission or expresses possibility."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 3",
+    "question": "I ______ swim when I was five years old.",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "grammar",
+    "topic": "modal verbs",
+    "lesson": "lesson_grammar_003",
+    "generated_by": "Gemini",
+    "description": "Choose the correct modal verb to express past ability.",
+    "options": [
+      {
+        "key": "A",
+        "option": "can"
+      },
+      {
+        "key": "B",
+        "option": "must"
+      },
+      {
+        "key": "C",
+        "option": "should"
+      },
+      {
+        "key": "D",
+        "option": "could"
+      }
+    ],
+    "explanation": "'Could' is the past tense of 'can' and expresses past ability. 'Can' is present ability, 'must' expresses obligation, and 'should' expresses advice."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 4",
+    "question": "You ______ eat food in the library. It's against the rules.",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "grammar",
+    "topic": "modal verbs",
+    "lesson": "lesson_grammar_004",
+    "generated_by": "Gemini",
+    "description": "Select the correct modal verb to express prohibition.",
+    "options": [
+      {
+        "key": "A",
+        "option": "mustn't"
+      },
+      {
+        "key": "B",
+        "option": "can"
+      },
+      {
+        "key": "C",
+        "option": "don't have to"
+      },
+      {
+        "key": "D",
+        "option": "could"
+      }
+    ],
+    "explanation": "'Mustn't' means 'is not allowed' or 'is prohibited'. 'Can' expresses ability or possibility, 'don't have to' means it is not required, and 'could' expresses past ability or a polite request."
+  },
+  {
+    "name": "English Grammar Exercise - Exercise 5",
+    "question": "______ I use your phone? Mine doesn't have any battery.",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "A1",
+    "skill": "grammar",
+    "topic": "modal verbs",
+    "lesson": "lesson_grammar_005",
+    "generated_by": "Gemini",
+    "description": "Choose the most appropriate modal verb to ask for permission.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Must"
+      },
+      {
+        "key": "B",
+        "option": "Will"
+      },
+      {
+        "key": "C",
+        "option": "Should"
+      },
+      {
+        "key": "D",
+        "option": "May"
+      }
+    ],
+    "explanation": "'May' is a formal way to ask for permission. 'Must' expresses obligation, 'will' indicates future tense or willingness, and 'should' offers advice."
+  },
+  {
+    "name": "Future Plans MCQ",
+    "question": "Read the sentence: 'I ________ visit my grandmother next Sunday.' Which option correctly completes the sentence to express a future plan?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "future tenses",
+    "lesson": "future_tense_plans",
+    "generated_by": "Gemini",
+    "description": "Choose the correct form of 'going to' to express a planned future event.",
+    "options": [
+      {
+        "key": "A",
+        "option": "will"
+      },
+      {
+        "key": "B",
+        "option": "am going to"
+      },
+      {
+        "key": "C",
+        "option": "going"
+      },
+      {
+        "key": "D",
+        "option": "go"
+      }
+    ],
+    "explanation": "'Am going to' is used to express a future plan or intention. 'Will' is often used for spontaneous decisions. 'Going' and 'go' are grammatically incorrect in this context."
+  },
+  {
+    "name": "Predicting the Weather",
+    "question": "Read the forecast: 'It ________ rain tomorrow morning.' Which option best expresses this weather prediction?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "future tenses",
+    "lesson": "future_tense_predictions",
+    "generated_by": "Gemini",
+    "description": "Select the correct future tense for expressing a prediction about the weather.",
+    "options": [
+      {
+        "key": "A",
+        "option": "will"
+      },
+      {
+        "key": "B",
+        "option": "is"
+      },
+      {
+        "key": "C",
+        "option": "rained"
+      },
+      {
+        "key": "D",
+        "option": "going"
+      }
+    ],
+    "explanation": "'Will' is used to make predictions about the future. 'Is' and 'rained' refer to the present and past, respectively. 'Going' is incomplete without 'to' and a verb."
+  },
+  {
+    "name": "Scheduled Events",
+    "question": "Read the schedule: 'The train ________ at 10:00 AM tomorrow.' Which option indicates a scheduled event?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "future tenses",
+    "lesson": "future_tense_schedules",
+    "generated_by": "Gemini",
+    "description": "Identify the correct tense to describe a future event on a fixed schedule.",
+    "options": [
+      {
+        "key": "A",
+        "option": "will arrive"
+      },
+      {
+        "key": "B",
+        "option": "arrived"
+      },
+      {
+        "key": "C",
+        "option": "is arriving"
+      },
+      {
+        "key": "D",
+        "option": "arrives"
+      }
+    ],
+    "explanation": "The present simple tense ('arrives') is used for scheduled future events like train departures. 'Will arrive' is possible but less common for schedules. 'Arrived' is past tense. 'Is arriving' suggests a current event."
+  },
+  {
+    "name": "Expressing Intentions",
+    "question": "Read the sentence: 'We ________ have a picnic if the weather is nice.' Which option expresses a conditional intention?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "future tenses",
+    "lesson": "future_tense_intentions",
+    "generated_by": "Gemini",
+    "description": "Choose the correct future tense to show an intention dependent on a condition.",
+    "options": [
+      {
+        "key": "A",
+        "option": "are going to"
+      },
+      {
+        "key": "B",
+        "option": "will"
+      },
+      {
+        "key": "C",
+        "option": "are going to"
+      },
+      {
+        "key": "D",
+        "option": "did"
+      }
+    ],
+    "explanation": "'Are going to' expresses a planned future action, dependent on the condition of the weather. While 'will' could be used, 'are going to' is stronger indicating intention. 'Did' is past tense."
+  },
+  {
+    "name": "Instant Decisions",
+    "question": "Read the situation: 'The phone is ringing! I ________ answer it.' Which option shows an instant decision?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "reading",
+    "topic": "future tenses",
+    "lesson": "future_tense_instant_decisions",
+    "generated_by": "Gemini",
+    "description": "Select the future tense that indicates a spontaneous decision.",
+    "options": [
+      {
+        "key": "A",
+        "option": "am going to"
+      },
+      {
+        "key": "B",
+        "option": "will"
+      },
+      {
+        "key": "C",
+        "option": "am"
+      },
+      {
+        "key": "D",
+        "option": "answered"
+      }
+    ],
+    "explanation": "'Will' is used for instant decisions made at the moment of speaking. 'Am going to' implies a prior plan. 'Am' is incomplete. 'Answered' is past tense."
+  },
+  {
+    "name": "Reported Speech - Exercise 1: Pronoun Change",
+    "question": "Direct speech: 'I am going to the park tomorrow,' John said.\nWhich is the correct reported speech?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "writing",
+    "topic": "reported speech",
+    "lesson": "lesson_writing_001",
+    "generated_by": "Gemini",
+    "description": "Choose the option that correctly transforms direct speech to reported speech, paying attention to pronoun changes.",
+    "options": [
+      {
+        "key": "A",
+        "option": "John said I am going to the park the next day."
+      },
+      {
+        "key": "B",
+        "option": "John said he was going to the park the next day."
+      },
+      {
+        "key": "C",
+        "option": "John said he is going to the park tomorrow."
+      },
+      {
+        "key": "D",
+        "option": "John says I was going to the park tomorrow."
+      }
+    ],
+    "explanation": "Option B is correct because 'I' changes to 'he', 'am' changes to 'was', and 'tomorrow' changes to 'the next day'. Other options incorrectly retain pronouns or tenses."
+  },
+  {
+    "name": "Reported Speech - Exercise 2: Tense Shift",
+    "question": "Direct speech: 'I like pizza,' she explained.\nWhich is the correct reported speech?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "writing",
+    "topic": "reported speech",
+    "lesson": "lesson_writing_002",
+    "generated_by": "Gemini",
+    "description": "Choose the option that accurately shifts the tense when converting direct speech into reported speech.",
+    "options": [
+      {
+        "key": "A",
+        "option": "She explained she likes pizza."
+      },
+      {
+        "key": "B",
+        "option": "She explained I liked pizza."
+      },
+      {
+        "key": "C",
+        "option": "She explained she liked pizza."
+      },
+      {
+        "key": "D",
+        "option": "She explained she is liking pizza."
+      }
+    ],
+    "explanation": "Option C is correct because 'like' changes to 'liked' in reported speech.  Option A doesn't change the tense. B changes the wrong pronoun and tense, and D uses the incorrect tense."
+  },
+  {
+    "name": "Reported Speech - Exercise 3: Time Expressions",
+    "question": "Direct speech: 'I will see you here tomorrow,' he promised.\nWhich is the correct reported speech?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "writing",
+    "topic": "reported speech",
+    "lesson": "lesson_writing_003",
+    "generated_by": "Gemini",
+    "description": "Identify the correct transformation of time expressions from direct to reported speech.",
+    "options": [
+      {
+        "key": "A",
+        "option": "He promised he will see me here the next day."
+      },
+      {
+        "key": "B",
+        "option": "He promised he would see you there tomorrow."
+      },
+      {
+        "key": "C",
+        "option": "He promised he will see me there tomorrow."
+      },
+      {
+        "key": "D",
+        "option": "He promised he would see me there the next day."
+      }
+    ],
+    "explanation": "Option D correctly changes 'will' to 'would', 'here' to 'there', and 'tomorrow' to 'the next day' for correct reported speech. The other options fail to make all necessary changes."
+  },
+  {
+    "name": "Reported Speech - Exercise 4: Questions",
+    "question": "Direct speech: 'Do you like coffee?' she asked me.\nWhich is the correct reported speech?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "writing",
+    "topic": "reported speech",
+    "lesson": "lesson_writing_004",
+    "generated_by": "Gemini",
+    "description": "Choose the correct reported speech for a direct question, paying attention to word order and introduction of 'if/whether'.",
+    "options": [
+      {
+        "key": "A",
+        "option": "She asked me if I liked coffee."
+      },
+      {
+        "key": "B",
+        "option": "She asked me did I like coffee?"
+      },
+      {
+        "key": "C",
+        "option": "She asked me that I liked coffee."
+      },
+      {
+        "key": "D",
+        "option": "She asked me if do I like coffee."
+      }
+    ],
+    "explanation": "Option A is correct. In reported questions, we use 'if' or 'whether' to introduce the question, and the word order changes to statement order (subject + verb).  The other options contain grammatical errors or incorrect introduction."
+  },
+  {
+    "name": "Reported Speech - Exercise 5: Commands",
+    "question": "Direct speech: 'Clean your room!' my mother said to me.\nWhich is the correct reported speech?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "A2",
+    "skill": "writing",
+    "topic": "reported speech",
+    "lesson": "lesson_writing_005",
+    "generated_by": "Gemini",
+    "description": "Identify the proper way to convert a direct command into reported speech using 'told' and an infinitive.",
+    "options": [
+      {
+        "key": "A",
+        "option": "My mother said to me that I cleaned my room."
+      },
+      {
+        "key": "B",
+        "option": "My mother told me cleaning my room."
+      },
+      {
+        "key": "C",
+        "option": "My mother told me to clean my room."
+      },
+      {
+        "key": "D",
+        "option": "My mother told me if I cleaned my room."
+      }
+    ],
+    "explanation": "Option C is correct. Commands are reported using 'told' + person + 'to' + infinitive. The other options use incorrect structures for reporting commands."
+  },
+  {
+    "name": "Future Plans MCQ",
+    "question": "Choose the best way to complete the sentence: 'I ______ my sister next week, as I promised.'",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "writing",
+    "topic": "future tenses",
+    "lesson": "future_001",
+    "generated_by": "Gemini",
+    "description": "This tests the ability to correctly use the future continuous tense to express a planned action.",
+    "options": [
+      {
+        "key": "A",
+        "option": "will visit"
+      },
+      {
+        "key": "B",
+        "option": "am visiting"
+      },
+      {
+        "key": "C",
+        "option": "will be visiting"
+      },
+      {
+        "key": "D",
+        "option": "visit"
+      }
+    ],
+    "explanation": "'Am visiting' indicates a fixed plan. 'Will visit' is less specific. 'Will be visiting' is correct grammatically, but less common for a simple promise. 'Visit' is present simple and doesn't express a future action."
+  },
+  {
+    "name": "Predicting the Future MCQ",
+    "question": "Select the best sentence to express a prediction: 'Based on the weather forecast, it ______ rain tomorrow afternoon.'",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "writing",
+    "topic": "future tenses",
+    "lesson": "future_002",
+    "generated_by": "Gemini",
+    "description": "This assesses understanding of using 'will' for predictions.",
+    "options": [
+      {
+        "key": "A",
+        "option": "is going to"
+      },
+      {
+        "key": "B",
+        "option": "is raining"
+      },
+      {
+        "key": "C",
+        "option": "will"
+      },
+      {
+        "key": "D",
+        "option": "rains"
+      }
+    ],
+    "explanation": "'Will' is typically used for predictions based on general knowledge. 'Is going to' implies more certainty or evidence. 'Is raining' is present continuous, and 'rains' is present simple."
+  },
+  {
+    "name": "Future Time Clauses MCQ",
+    "question": "Complete the sentence with the correct future form: '______ I finish this project, I'll take a break.'",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "writing",
+    "topic": "future tenses",
+    "lesson": "future_003",
+    "generated_by": "Gemini",
+    "description": "Tests knowledge of using present simple in future time clauses.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Once"
+      },
+      {
+        "key": "B",
+        "option": "Will"
+      },
+      {
+        "key": "C",
+        "option": "As"
+      },
+      {
+        "key": "D",
+        "option": "After I will"
+      }
+    ],
+    "explanation": "In future time clauses, we use the present simple. 'Once I finish' correctly expresses the future action in the time clause. The other options are grammatically incorrect or less appropriate in context."
+  },
+  {
+    "name": "Expressing Intentions MCQ",
+    "question": "Which sentence expresses a clear intention for the future? 'I ______ learn to play the guitar this year.'",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "writing",
+    "topic": "future tenses",
+    "lesson": "future_004",
+    "generated_by": "Gemini",
+    "description": "Focuses on the use of 'going to' for expressing intentions.",
+    "options": [
+      {
+        "key": "A",
+        "option": "will"
+      },
+      {
+        "key": "B",
+        "option": "am going to"
+      },
+      {
+        "key": "C",
+        "option": "learn"
+      },
+      {
+        "key": "D",
+        "option": "will be"
+      }
+    ],
+    "explanation": "'Am going to' expresses a definite intention. 'Will' is more general, and 'learn' is present simple. 'Will be learning' implies a more ongoing action."
+  },
+  {
+    "name": "Future in the Past MCQ",
+    "question": "Choose the correct form to complete the sentence: 'She said she ______ call me later, but she didn't.'",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "B1",
+    "skill": "writing",
+    "topic": "future tenses",
+    "lesson": "future_005",
+    "generated_by": "Gemini",
+    "description": "Tests the ability to use 'would' to express the future in the past.",
+    "options": [
+      {
+        "key": "A",
+        "option": "will"
+      },
+      {
+        "key": "B",
+        "option": "is going to"
+      },
+      {
+        "key": "C",
+        "option": "shall"
+      },
+      {
+        "key": "D",
+        "option": "would"
+      }
+    ],
+    "explanation": "'Would' is the past form of 'will' and is used to express the future in the past. The other options don't fit grammatically or contextually."
+  },
+  {
+    "name": "Listening - Inference with Modal Verbs",
+    "question": "Listen to a conversation between two colleagues discussing a project deadline. Which of the following inferences can be MOST confidently drawn about the speaker's feelings regarding their ability to meet the deadline?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "listening",
+    "topic": "modal verbs",
+    "lesson": "lesson_listening_006",
+    "generated_by": "Gemini",
+    "description": "Listen to a recording. Choose the option that best reflects the inferred meaning based on the modal verbs used.",
+    "options": [
+      {
+        "key": "A",
+        "option": "They are certain they will not meet the deadline."
+      },
+      {
+        "key": "B",
+        "option": "They are somewhat doubtful but willing to try to meet the deadline."
+      },
+      {
+        "key": "C",
+        "option": "They are completely confident and guarantee they will meet the deadline."
+      },
+      {
+        "key": "D",
+        "option": "They are indifferent to whether the deadline is met."
+      }
+    ],
+    "explanation": "Option B is correct because modal verbs like 'might' or 'could' in the dialogue would indicate uncertainty and a willingness to try. Option A is too definite, Option C is overly confident and option D is unlikely given project discussions."
+  },
+  {
+    "name": "Listening - Modal Verbs of Speculation",
+    "question": "Listen to a short news report about a political event. According to the report, which of the following scenarios is presented as the MOST likely outcome, based on the use of modal verbs?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "listening",
+    "topic": "modal verbs",
+    "lesson": "lesson_listening_007",
+    "generated_by": "Gemini",
+    "description": "Listen to a news clip. Determine the most probable outcome suggested by the reporter's use of modal verbs expressing speculation.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The political party will undoubtedly win the next election."
+      },
+      {
+        "key": "B",
+        "option": "The proposed legislation will definitely be passed by parliament."
+      },
+      {
+        "key": "C",
+        "option": "The government may face significant challenges in implementing its new policies."
+      },
+      {
+        "key": "D",
+        "option": "The economic situation will certainly improve in the coming months."
+      }
+    ],
+    "explanation": "Option C is correct because modal verbs like 'may', 'might', or 'could' suggest a possibility of facing challenges, indicating uncertainty. The other options use strong certainty (will undoubtedly/definitely/certainly) not conveyed by modal verbs of speculation."
+  },
+  {
+    "name": "Listening - Modal Verbs for Advice and Suggestion",
+    "question": "Listen to a conversation between a doctor and a patient. What is the doctor's STRONGEST recommendation regarding the patient's lifestyle?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "listening",
+    "topic": "modal verbs",
+    "lesson": "lesson_listening_008",
+    "generated_by": "Gemini",
+    "description": "Listen carefully to the doctor's advice. Choose the option reflecting the most emphatic suggestion using modal verbs.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The patient must immediately stop smoking and start exercising regularly."
+      },
+      {
+        "key": "B",
+        "option": "The patient should consider reducing their sugar intake."
+      },
+      {
+        "key": "C",
+        "option": "The patient could try to get more sleep."
+      },
+      {
+        "key": "D",
+        "option": "The patient might want to think about taking vitamins."
+      }
+    ],
+    "explanation": "Option A is correct because 'must' expresses the strongest obligation, indicating the doctor's firmest recommendation. Options B, C, and D use weaker modal verbs (should, could, might) implying less urgency or obligation."
+  },
+  {
+    "name": "Listening - Modal Verbs of Deduction",
+    "question": "Listen to a detective describing a crime scene. Which statement about the suspect's actions is the detective MOST certain about, judging by the modal verbs used?",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "listening",
+    "topic": "modal verbs",
+    "lesson": "lesson_listening_009",
+    "generated_by": "Gemini",
+    "description": "Pay close attention to the detective's deductions. Select the statement reflecting the highest degree of certainty conveyed by modal verbs.",
+    "options": [
+      {
+        "key": "A",
+        "option": "The suspect might have known the victim."
+      },
+      {
+        "key": "B",
+        "option": "The suspect could have entered through the back door."
+      },
+      {
+        "key": "C",
+        "option": "The suspect may have had an accomplice."
+      },
+      {
+        "key": "D",
+        "option": "The suspect must have been familiar with the building's layout."
+      }
+    ],
+    "explanation": "Option D is correct. 'Must have' expresses the strongest deduction based on the evidence at the crime scene. The other options (might have, could have, may have) indicate a lower degree of certainty."
+  },
+  {
+    "name": "Listening - Contrasting Meanings with Modal Verbs",
+    "question": "Listen to a short dialogue between a student and a professor about an assignment. What is the KEY difference in meaning between the professor saying 'You should have submitted it on time' and 'You had to submit it on time'?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "C1",
+    "skill": "listening",
+    "topic": "modal verbs",
+    "lesson": "lesson_listening_010",
+    "generated_by": "Gemini",
+    "description": "Identify the nuance between two similar statements using different modal verbs.",
+    "options": [
+      {
+        "key": "A",
+        "option": "There is no significant difference in meaning."
+      },
+      {
+        "key": "B",
+        "option": "'Should have' implies regret about a missed opportunity, while 'had to' indicates a strict obligation."
+      },
+      {
+        "key": "C",
+        "option": "'Had to' implies advice, while 'should have' expresses a command."
+      },
+      {
+        "key": "D",
+        "option": "'Should have' is more polite than 'had to'."
+      }
+    ],
+    "explanation": "Option B correctly identifies the difference. 'Should have' refers to a past missed opportunity and implies regret. 'Had to' emphasizes a past obligation or necessity, now completed. The other options misinterpret the meaning of these modal verb constructions."
+  },
+  {
+    "name": "Present Perfect and Time Expressions",
+    "question": "Read the following sentence: 'I ______ to Paris twice this year.' Which of the following best completes the sentence to express an action completed within a timeframe that includes the present?",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "reading",
+    "topic": "present perfect tense",
+    "lesson": "present_perfect_001",
+    "generated_by": "GPT-3",
+    "description": "Complete the sentence with the correct form of the verb in the present perfect tense, considering the time expression 'this year'.",
+    "options": [
+      {
+        "key": "A",
+        "option": "have been"
+      },
+      {
+        "key": "B",
+        "option": "went"
+      },
+      {
+        "key": "C",
+        "option": "am going"
+      },
+      {
+        "key": "D",
+        "option": "will go"
+      }
+    ],
+    "explanation": "'Have been' correctly uses the present perfect tense indicating an action completed within the ongoing timeframe of 'this year.' 'Went' is simple past, implying a finished period. 'Am going' is present continuous and 'will go' is future, both unsuitable for this context."
+  },
+  {
+    "name": "Present Perfect for Unfinished Actions",
+    "question": "Read the text: 'She started learning Spanish three years ago and she is still learning it.' Which sentence accurately reflects this information using the present perfect continuous?",
+    "system_answer": "C",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "reading",
+    "topic": "present perfect tense",
+    "lesson": "present_perfect_002",
+    "generated_by": "GPT-3",
+    "description": "Identify the sentence that correctly uses the present perfect continuous to describe an action that started in the past and continues to the present.",
+    "options": [
+      {
+        "key": "A",
+        "option": "She has learned Spanish for three years."
+      },
+      {
+        "key": "B",
+        "option": "She learned Spanish three years ago."
+      },
+      {
+        "key": "C",
+        "option": "She has been learning Spanish for three years."
+      },
+      {
+        "key": "D",
+        "option": "She is learning Spanish since three years."
+      }
+    ],
+    "explanation": "'Has been learning' is the correct present perfect continuous form, indicating an action that began in the past and continues to the present. Options A and B do not reflect the ongoing nature. Option D uses incorrect grammar ('since')."
+  },
+  {
+    "name": "Present Perfect and Past Simple Contrasts",
+    "question": "Read the following scenario: 'John lost his key yesterday and he still doesn't have it.' Which sentence correctly describes this using the present perfect or past simple?",
+    "system_answer": "B",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "reading",
+    "topic": "present perfect tense",
+    "lesson": "present_perfect_003",
+    "generated_by": "GPT-3",
+    "description": "Choose the option that appropriately combines the present perfect and past simple to describe a past action with present relevance.",
+    "options": [
+      {
+        "key": "A",
+        "option": "John has lost his key yesterday and still doesn't have it."
+      },
+      {
+        "key": "B",
+        "option": "John lost his key yesterday and he still hasn't found it."
+      },
+      {
+        "key": "C",
+        "option": "John has lost his key and he didn't find it yesterday."
+      },
+      {
+        "key": "D",
+        "option": "John loses his key yesterday and still doesn't find it."
+      }
+    ],
+    "explanation": "'Lost' (past simple) correctly describes the completed action in the past (yesterday). 'Hasn't found' (present perfect) describes the continuing state of not having found it. The other options misuse the tenses or have incorrect word order."
+  },
+  {
+    "name": "Present Perfect with 'Ever' and 'Never'",
+    "question": "Complete the sentence: '______ you ______ to Japan?' using the correct form of the present perfect tense with 'ever'.",
+    "system_answer": "D",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "reading",
+    "topic": "present perfect tense",
+    "lesson": "present_perfect_004",
+    "generated_by": "GPT-3",
+    "description": "Choose the option that forms a grammatically correct question using the present perfect with the word 'ever'.",
+    "options": [
+      {
+        "key": "A",
+        "option": "Did; been"
+      },
+      {
+        "key": "B",
+        "option": "Have; go"
+      },
+      {
+        "key": "C",
+        "option": "Are; going"
+      },
+      {
+        "key": "D",
+        "option": "Have; been"
+      }
+    ],
+    "explanation": "'Have you ever been' is the correct present perfect question structure with 'ever', inquiring if the person has had the experience at any time in their life. The other options are grammatically incorrect or use incorrect tenses."
+  },
+  {
+    "name": "Present Perfect with Resulting State",
+    "question": "Read the sentence: 'The company ______ a new product, and sales are booming.' Choose the option which correctly fills the blank using Present Perfect showing the result of the action.",
+    "system_answer": "A",
+    "type": "mcq",
+    "level": "B2",
+    "skill": "reading",
+    "topic": "present perfect tense",
+    "lesson": "present_perfect_005",
+    "generated_by": "GPT-3",
+    "description": "Identify the Present Perfect tense usage which shows that the resulting state (sales are booming) is a consequence of a past action (launching the product).",
+    "options": [
+      {
+        "key": "A",
+        "option": "has launched"
+      },
+      {
+        "key": "B",
+        "option": "launched"
+      },
+      {
+        "key": "C",
+        "option": "is launching"
+      },
+      {
+        "key": "D",
+        "option": "will launch"
+      }
+    ],
+    "explanation": "'Has launched' (present perfect) is the correct choice because it connects the past action of launching the product to the present result of sales booming. The other options do not create this connection appropriately."
+  }
+]
