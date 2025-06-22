@@ -24,8 +24,8 @@ async def health_check():
     if not db_status["ok"]:
         overall_ok = False
 
-    # 2) RAG pipelines
-    for key in ("ollama", "vertex"):
+    # 2) RAG pipelines - now including DeepSeek
+    for key in ("ollama", "vertex", "deepseek"):
         pipe = rag.pipelines.get(key, {})
         llm_ok    = pipe.get("llm")    is not None
         chain_ok  = pipe.get("chain")  is not None
@@ -33,8 +33,23 @@ async def health_check():
         components[f"{key}_llm"] = {"ok": llm_ok}
         components[f"{key}_chain"] = {"ok": chain_ok}
 
-        if not llm_ok or not chain_ok:
+        # Don't mark as failed if optional services are not configured
+        if key == "vertex" and not settings.use_vertex:
+            continue
+        if key == "deepseek" and not settings.use_deepseek:
+            continue
+        
+        # Only consider it a problem if the service should be available but isn't
+        if key == "ollama" and (not llm_ok or not chain_ok):
             overall_ok = False
+
+    # 3) Configuration status
+    components["config"] = {
+        "ollama_model": settings.ollama_model,
+        "use_vertex": settings.use_vertex,
+        "use_deepseek": settings.use_deepseek,
+        "deepseek_configured": bool(settings.deepseek_api_key)
+    }
 
     status = "healthy" if overall_ok else "degraded"
     return {"status": status, "components": components}

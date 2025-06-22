@@ -8,7 +8,7 @@ from app.schemas.exercise import ExerciseRequest, ExerciseResponse
 
 from app.db.session import get_db
 from fastapi import Query
-from typing import Any, Dict
+from typing import Any, Dict, Literal
 import app.core.rag as rag
 import app.core.prompts as prompt  
 from app.services.exercise_service import _generate_exercise
@@ -17,10 +17,27 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
+def _get_llm_pipeline(model_type: str):
+    """Get LLM pipeline with fallback logic"""
+    # Priority order: deepseek -> vertex -> ollama
+    if model_type == "deepseek" and rag.pipelines["deepseek"]["llm"]:
+        return "deepseek"
+    elif model_type == "vertex" and rag.pipelines["vertex"]["llm"]:
+        return "vertex"
+    elif model_type == "ollama" and rag.pipelines["ollama"]["llm"]:
+        return "ollama"
+    else:
+        # Fallback logic
+        for key in ["deepseek", "vertex", "ollama"]:
+            if rag.pipelines[key]["llm"]:
+                logger.info(f"Falling back to {key} LLM")
+                return key
+        raise HTTPException(status_code=503, detail="No LLM pipeline available")
+
 @router.post("/no-rag")
 async def generate_no_rag(
     body: Dict[str, Any] = Body(...),
-    use_vertex: bool = Query(False, alias="useVertex"),
+    model_type: Literal["ollama", "vertex", "deepseek"] = Query("ollama", alias="modelType"),
     db: AsyncSession = Depends(get_db),
 ):
 
@@ -41,30 +58,39 @@ async def generate_no_rag(
         logger.error("Error formatting prompt %s with vars %s: %s", prompt_name, body, e, exc_info=True)
         raise HTTPException(status_code=400, detail=f"Prompt format error: {e}")
 
-
-    key = "vertex" if use_vertex else "ollama"
+    # Get LLM with fallback
+    key = _get_llm_pipeline(model_type)
     llm = rag.pipelines[key]["llm"]
-    if not llm:
-        raise HTTPException(status_code=503, detail=f"LLM pipeline '{key}' unavailable")
+    
+    logger.info(f"Using {key} LLM for generation")
 
-    # 4) Gọi LLM, fallback nếu MemoryError
+    # Generate exercise with memory error handling
     try:
         result = await _generate_exercise(llm, prompt_text, expected_count=number, expected_type=exercise_type)
     except MemoryError:
-        logger.warning("MemoryError on %s, retrying on Vertex", key)
-        llm = rag.pipelines["vertex"]["llm"]
-        if not llm:
-            raise HTTPException(status_code=503, detail="Vertex LLM unavailable for retry")
-        result = await _generate_exercise(llm, prompt_text, expected_count=number, expected_type=exercise_type)
+        logger.warning(f"MemoryError on {key}, trying fallback")
+        # Try other available pipelines
+        for fallback_key in ["deepseek", "vertex", "ollama"]:
+            if fallback_key != key and rag.pipelines[fallback_key]["llm"]:
+                logger.info(f"Retrying with {fallback_key}")
+                llm = rag.pipelines[fallback_key]["llm"]
+                try:
+                    result = await _generate_exercise(llm, prompt_text, expected_count=number, expected_type=exercise_type)
+                    break
+                except MemoryError:
+                    continue
+        else:
+            raise HTTPException(status_code=503, detail="All LLM pipelines failed due to memory issues")
 
     result["context_length"] = 0
+    result["used_model"] = key
     return JSONResponse(status_code=200, content=result)
 
 
 @router.post("/native-rag")
 async def generate_native_rag(
     body: Dict[str, Any] = Body(...),
-    use_vertex: bool = Query(False, alias="useVertex"),
+    model_type: Literal["ollama", "vertex", "deepseek"] = Query("ollama", alias="modelType"),
     db: AsyncSession = Depends(get_db),
 ):
     """
@@ -78,7 +104,7 @@ async def generate_native_rag(
         raise HTTPException(status_code=400, detail=f"Missing fields: {missing}")
     
     # Get RAG context first
-    key = "vertex" if use_vertex else "ollama"
+    key = _get_llm_pipeline(model_type)
     pipeline = rag.pipelines[key]
     llm, chain = pipeline.get("llm"), pipeline.get("chain")
     if not (llm and chain):
@@ -104,6 +130,7 @@ async def generate_native_rag(
         raise HTTPException(status_code=400, detail=f"Prompt format error: {e}")
 
     # 4) Gọi LLM
-    result = await _generate_exercise(llm, prompt_text, number, type)
+    result = await _generate_exercise(llm, prompt_text, number, body.get("type"))
     result["context_length"] = len(context)
+    result["used_model"] = key
     return JSONResponse(status_code=200, content=result)

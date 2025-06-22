@@ -4,3 +4,4 @@ chroma_db/
 __pycache__/
 key/*
 .vscode/*
+requirements_temp.txt

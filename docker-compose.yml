@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # MySQL Database
+  # mysql:
+  #   image: mysql:8.0
+  #   container_name: engagent-mysql
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: rootpassword
+  #     MYSQL_DATABASE: engagent_db
+  #     MYSQL_USER: engagent_user
+  #     MYSQL_PASSWORD: engagent_password
+  #   ports:
+  #     - "3306:3306"
+  #   volumes:
+  #     - mysql_data:/var/lib/mysql
+  #   restart: unless-stopped
+  #   healthcheck:
+  #     test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+  #     timeout: 20s
+  #     retries: 10
+
+  # EngAgent API
+  engagent-api:
+    build: .
+    container_name: engagent-api
+    ports:
+      - "8000:8000"
+    environment:
+      - MYSQL_USER=engagent_user
+      - MYSQL_PASSWORD=engagent_password
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_DB=engagent_db
+      - OLLAMA_MODEL=mistral
+      - HF_EMBEDDING_MODEL=sentence-transformers/all-mpnet-base-v2
+      - USE_VERTEX=false
+    volumes:
+      - ./data:/app/data
+      - ./key:/app/key
+      - ./chroma_db:/app/chroma_db
+    depends_on:
+      mysql:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  mysql_data: 

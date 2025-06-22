@@ -8,10 +8,25 @@ class Settings(BaseSettings):
     mysql_port: int = 3306
     mysql_db: str
 
-    ollama_model: str = "mistral"
+    # Ollama Configuration with smaller default model
+    ollama_model: str = "llama3.2:1b"  # Changed from mistral to smaller model
+    ollama_host: str = "http://localhost:11434"
+    ollama_timeout: int = 120
+    
+    # Alternative model options for different memory requirements
+    ollama_small_model: str = "llama3.2:1b"  # ~1.3GB
+    ollama_medium_model: str = "llama3.2:3b"  # ~2.0GB
+    ollama_large_model: str = "mistral"  # ~4.8GB
+    
+    # DeepSeek Configuration
+    deepseek_api_key: str | None = None
+    deepseek_model: str = "deepseek-chat"
+    deepseek_base_url: str = "https://api.deepseek.com"
+    
     hf_embedding_model: str = "sentence-transformers/all-mpnet-base-v2"
     
-    use_vertex: bool = False
+    use_vertex: bool = True
+    use_deepseek: bool = False
 
     # if you insist on separate naming
     vertex_project: str | None = None

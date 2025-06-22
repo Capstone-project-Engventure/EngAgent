@@ -1,5 +1,6 @@
-from sqlalchemy import Column, Integer, String, Float, JSON
+from sqlalchemy import Column, Integer, String, Float, JSON, Boolean, DateTime
 from sqlalchemy.orm import declarative_base
+from datetime import datetime
 
 Base = declarative_base()
 
@@ -19,3 +20,11 @@ class Exercise(Base):
     options = Column(JSON, nullable=True)
     duration_seconds = Column(Float, nullable=True)
     context_length = Column(Integer, nullable=True)
+    
+    # Approval fields
+    is_approved = Column(Boolean, default=False, nullable=False)
+    is_rejected = Column(Boolean, default=False, nullable=False)
+    rejection_reason = Column(String(length=500), nullable=True)
+    approved_at = Column(DateTime, nullable=True)
+    rejected_at = Column(DateTime, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
