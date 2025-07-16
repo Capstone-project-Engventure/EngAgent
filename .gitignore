@@ -5,3 +5,508 @@ __pycache__/
 key/*
 .vscode/*
 requirements_temp.txt
+exercises-evaluation/.gitignore
+exercises-evaluation/all_exercises.json
+exercises-evaluation/main.py
+exercises-evaluation/requirements.txt
+exercises-evaluation/data/criteria/clarity.txt
+exercises-evaluation/data/criteria/distractor_quality.txt
+exercises-evaluation/data/criteria/explanation_quality.txt
+exercises-evaluation/data/criteria/language_accuracy.txt
+exercises-evaluation/data/criteria/level_appropriateness.txt
+exercises-evaluation/outputs/Advanced Conditionals - Unfulfilled Potential/v1/clarity.json
+exercises-evaluation/outputs/Advanced Conditionals - Unfulfilled Potential/v1/distractor_quality.json
+exercises-evaluation/outputs/Advanced Conditionals - Unfulfilled Potential/v1/explanation_quality.json
+exercises-evaluation/outputs/Advanced Conditionals - Unfulfilled Potential/v1/language_accuracy.json
+exercises-evaluation/outputs/Advanced Conditionals - Unfulfilled Potential/v1/level_appropriateness.json
+exercises-evaluation/outputs/Advanced Grammar Exercise - Passive Voice Transformation/v1/clarity.json
+exercises-evaluation/outputs/Advanced Grammar Exercise - Passive Voice Transformation/v1/distractor_quality.json
+exercises-evaluation/outputs/Advanced Grammar Exercise - Passive Voice Transformation/v1/explanation_quality.json
+exercises-evaluation/outputs/Advanced Grammar Exercise - Passive Voice Transformation/v1/language_accuracy.json
+exercises-evaluation/outputs/Advanced Grammar Exercise - Passive Voice Transformation/v1/level_appropriateness.json
+exercises-evaluation/outputs/C1 Reading - Deduction and Modality/v1/clarity.json
+exercises-evaluation/outputs/C1 Reading - Deduction and Modality/v1/distractor_quality.json
+exercises-evaluation/outputs/C1 Reading - Deduction and Modality/v1/explanation_quality.json
+exercises-evaluation/outputs/C1 Reading - Deduction and Modality/v1/language_accuracy.json
+exercises-evaluation/outputs/C1 Reading - Deduction and Modality/v1/level_appropriateness.json
+exercises-evaluation/outputs/C1 Reading - Hypothetical Past/v1/clarity.json
+exercises-evaluation/outputs/C1 Reading - Hypothetical Past/v1/distractor_quality.json
+exercises-evaluation/outputs/C1 Reading - Hypothetical Past/v1/explanation_quality.json
+exercises-evaluation/outputs/C1 Reading - Hypothetical Past/v1/language_accuracy.json
+exercises-evaluation/outputs/C1 Reading - Hypothetical Past/v1/level_appropriateness.json
+exercises-evaluation/outputs/C1 Reading - Implied Obligation/v1/clarity.json
+exercises-evaluation/outputs/C1 Reading - Implied Obligation/v1/distractor_quality.json
+exercises-evaluation/outputs/C1 Reading - Implied Obligation/v1/explanation_quality.json
+exercises-evaluation/outputs/C1 Reading - Implied Obligation/v1/language_accuracy.json
+exercises-evaluation/outputs/C1 Reading - Implied Obligation/v1/level_appropriateness.json
+exercises-evaluation/outputs/C1 Reading - Permission and Prohibition/v1/clarity.json
+exercises-evaluation/outputs/C1 Reading - Permission and Prohibition/v1/distractor_quality.json
+exercises-evaluation/outputs/C1 Reading - Permission and Prohibition/v1/explanation_quality.json
+exercises-evaluation/outputs/C1 Reading - Permission and Prohibition/v1/language_accuracy.json
+exercises-evaluation/outputs/C1 Reading - Permission and Prohibition/v1/level_appropriateness.json
+exercises-evaluation/outputs/C1 Reading - Speculation and Prediction/v1/clarity.json
+exercises-evaluation/outputs/C1 Reading - Speculation and Prediction/v1/distractor_quality.json
+exercises-evaluation/outputs/C1 Reading - Speculation and Prediction/v1/explanation_quality.json
+exercises-evaluation/outputs/C1 Reading - Speculation and Prediction/v1/language_accuracy.json
+exercises-evaluation/outputs/C1 Reading - Speculation and Prediction/v1/level_appropriateness.json
+exercises-evaluation/outputs/Clothes Vocabulary Exercise/v1/clarity.json
+exercises-evaluation/outputs/Clothes Vocabulary Exercise/v1/distractor_quality.json
+exercises-evaluation/outputs/Clothes Vocabulary Exercise/v1/explanation_quality.json
+exercises-evaluation/outputs/Clothes Vocabulary Exercise/v1/language_accuracy.json
+exercises-evaluation/outputs/Clothes Vocabulary Exercise/v1/level_appropriateness.json
+exercises-evaluation/outputs/Clothing Vocabulary MCQ/v1/clarity.json
+exercises-evaluation/outputs/Clothing Vocabulary MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Clothing Vocabulary MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Clothing Vocabulary MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Clothing Vocabulary MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Counterfactual History and Linguistics/v1/clarity.json
+exercises-evaluation/outputs/Counterfactual History and Linguistics/v1/distractor_quality.json
+exercises-evaluation/outputs/Counterfactual History and Linguistics/v1/explanation_quality.json
+exercises-evaluation/outputs/Counterfactual History and Linguistics/v1/language_accuracy.json
+exercises-evaluation/outputs/Counterfactual History and Linguistics/v1/level_appropriateness.json
+exercises-evaluation/outputs/Daily Routine Exercise/v1/clarity.json
+exercises-evaluation/outputs/Daily Routine Exercise/v1/distractor_quality.json
+exercises-evaluation/outputs/Daily Routine Exercise/v1/explanation_quality.json
+exercises-evaluation/outputs/Daily Routine Exercise/v1/language_accuracy.json
+exercises-evaluation/outputs/Daily Routine Exercise/v1/level_appropriateness.json
+exercises-evaluation/outputs/Daily Routine MCQ/v1/clarity.json
+exercises-evaluation/outputs/Daily Routine MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Daily Routine MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Daily Routine MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Daily Routine MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Describing a Person (A2)/v1/clarity.json
+exercises-evaluation/outputs/Describing a Person (A2)/v1/distractor_quality.json
+exercises-evaluation/outputs/Describing a Person (A2)/v1/explanation_quality.json
+exercises-evaluation/outputs/Describing a Person (A2)/v1/language_accuracy.json
+exercises-evaluation/outputs/Describing a Person (A2)/v1/level_appropriateness.json
+exercises-evaluation/outputs/Descriptive Writing Sensory Detail/v1/clarity.json
+exercises-evaluation/outputs/Descriptive Writing Sensory Detail/v1/distractor_quality.json
+exercises-evaluation/outputs/Descriptive Writing Sensory Detail/v1/explanation_quality.json
+exercises-evaluation/outputs/Descriptive Writing Sensory Detail/v1/language_accuracy.json
+exercises-evaluation/outputs/Descriptive Writing Sensory Detail/v1/level_appropriateness.json
+exercises-evaluation/outputs/Directions MCQ/v1/clarity.json
+exercises-evaluation/outputs/Directions MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Directions MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Directions MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Directions MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Directions at a Bus Stop (A2)/v1/clarity.json
+exercises-evaluation/outputs/Directions at a Bus Stop (A2)/v1/distractor_quality.json
+exercises-evaluation/outputs/Directions at a Bus Stop (A2)/v1/explanation_quality.json
+exercises-evaluation/outputs/Directions at a Bus Stop (A2)/v1/language_accuracy.json
+exercises-evaluation/outputs/Directions at a Bus Stop (A2)/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Grammar Exercise - C2 Passive Voice - Complex Restructuring/v1/clarity.json
+exercises-evaluation/outputs/English Grammar Exercise - C2 Passive Voice - Complex Restructuring/v1/distractor_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - C2 Passive Voice - Complex Restructuring/v1/explanation_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - C2 Passive Voice - Complex Restructuring/v1/language_accuracy.json
+exercises-evaluation/outputs/English Grammar Exercise - C2 Passive Voice - Complex Restructuring/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 1/v1/clarity.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 1/v1/distractor_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 1/v1/explanation_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 1/v1/language_accuracy.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 1/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 2/v1/clarity.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 2/v1/distractor_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 2/v1/explanation_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 2/v1/language_accuracy.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 2/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 3/v1/clarity.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 3/v1/distractor_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 3/v1/explanation_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 3/v1/language_accuracy.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 3/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 4/v1/clarity.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 4/v1/distractor_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 4/v1/explanation_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 4/v1/language_accuracy.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 4/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 5/v1/clarity.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 5/v1/distractor_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 5/v1/explanation_quality.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 5/v1/language_accuracy.json
+exercises-evaluation/outputs/English Grammar Exercise - Exercise 5/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Listening Comprehension Exercise - C2 Nuance - Speaker's Attitude/v1/clarity.json
+exercises-evaluation/outputs/English Listening Comprehension Exercise - C2 Nuance - Speaker's Attitude/v1/distractor_quality.json
+exercises-evaluation/outputs/English Listening Comprehension Exercise - C2 Nuance - Speaker's Attitude/v1/explanation_quality.json
+exercises-evaluation/outputs/English Listening Comprehension Exercise - C2 Nuance - Speaker's Attitude/v1/language_accuracy.json
+exercises-evaluation/outputs/English Listening Comprehension Exercise - C2 Nuance - Speaker's Attitude/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Reading Comprehension Exercise - C2 Textual Inference - Author's Stance/v1/clarity.json
+exercises-evaluation/outputs/English Reading Comprehension Exercise - C2 Textual Inference - Author's Stance/v1/distractor_quality.json
+exercises-evaluation/outputs/English Reading Comprehension Exercise - C2 Textual Inference - Author's Stance/v1/explanation_quality.json
+exercises-evaluation/outputs/English Reading Comprehension Exercise - C2 Textual Inference - Author's Stance/v1/language_accuracy.json
+exercises-evaluation/outputs/English Reading Comprehension Exercise - C2 Textual Inference - Author's Stance/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 1/v1/clarity.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 1/v1/distractor_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 1/v1/explanation_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 1/v1/language_accuracy.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 1/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 2/v1/clarity.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 2/v1/distractor_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 2/v1/explanation_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 2/v1/language_accuracy.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 2/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 3/v1/clarity.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 3/v1/distractor_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 3/v1/explanation_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 3/v1/language_accuracy.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 3/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 4/v1/clarity.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 4/v1/distractor_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 4/v1/explanation_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 4/v1/language_accuracy.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 4/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 5/v1/clarity.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 5/v1/distractor_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 5/v1/explanation_quality.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 5/v1/language_accuracy.json
+exercises-evaluation/outputs/English Reading Exercise - Exercise 5/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Vocabulary Exercise - C2 Collocation - Subtle Connotations/v1/clarity.json
+exercises-evaluation/outputs/English Vocabulary Exercise - C2 Collocation - Subtle Connotations/v1/distractor_quality.json
+exercises-evaluation/outputs/English Vocabulary Exercise - C2 Collocation - Subtle Connotations/v1/explanation_quality.json
+exercises-evaluation/outputs/English Vocabulary Exercise - C2 Collocation - Subtle Connotations/v1/language_accuracy.json
+exercises-evaluation/outputs/English Vocabulary Exercise - C2 Collocation - Subtle Connotations/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Writing Exercise - C2 Register - Formal Communication/v1/clarity.json
+exercises-evaluation/outputs/English Writing Exercise - C2 Register - Formal Communication/v1/distractor_quality.json
+exercises-evaluation/outputs/English Writing Exercise - C2 Register - Formal Communication/v1/explanation_quality.json
+exercises-evaluation/outputs/English Writing Exercise - C2 Register - Formal Communication/v1/language_accuracy.json
+exercises-evaluation/outputs/English Writing Exercise - C2 Register - Formal Communication/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 1/v1/clarity.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 1/v1/distractor_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 1/v1/explanation_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 1/v1/language_accuracy.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 1/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 2/v1/clarity.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 2/v1/distractor_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 2/v1/explanation_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 2/v1/language_accuracy.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 2/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 3/v1/clarity.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 3/v1/distractor_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 3/v1/explanation_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 3/v1/language_accuracy.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 3/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 4/v1/clarity.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 4/v1/distractor_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 4/v1/explanation_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 4/v1/language_accuracy.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 4/v1/level_appropriateness.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 5/v1/clarity.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 5/v1/distractor_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 5/v1/explanation_quality.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 5/v1/language_accuracy.json
+exercises-evaluation/outputs/English Writing Exercise - Exercise 5/v1/level_appropriateness.json
+exercises-evaluation/outputs/Essay Structure Argumentative Essay/v1/clarity.json
+exercises-evaluation/outputs/Essay Structure Argumentative Essay/v1/distractor_quality.json
+exercises-evaluation/outputs/Essay Structure Argumentative Essay/v1/explanation_quality.json
+exercises-evaluation/outputs/Essay Structure Argumentative Essay/v1/language_accuracy.json
+exercises-evaluation/outputs/Essay Structure Argumentative Essay/v1/level_appropriateness.json
+exercises-evaluation/outputs/Ethical Dilemmas - The Butterfly Effect/v1/clarity.json
+exercises-evaluation/outputs/Ethical Dilemmas - The Butterfly Effect/v1/distractor_quality.json
+exercises-evaluation/outputs/Ethical Dilemmas - The Butterfly Effect/v1/explanation_quality.json
+exercises-evaluation/outputs/Ethical Dilemmas - The Butterfly Effect/v1/language_accuracy.json
+exercises-evaluation/outputs/Ethical Dilemmas - The Butterfly Effect/v1/level_appropriateness.json
+exercises-evaluation/outputs/Expressing Intentions/v1/clarity.json
+exercises-evaluation/outputs/Expressing Intentions/v1/distractor_quality.json
+exercises-evaluation/outputs/Expressing Intentions/v1/explanation_quality.json
+exercises-evaluation/outputs/Expressing Intentions/v1/language_accuracy.json
+exercises-evaluation/outputs/Expressing Intentions/v1/level_appropriateness.json
+exercises-evaluation/outputs/Expressing Intentions MCQ/v1/clarity.json
+exercises-evaluation/outputs/Expressing Intentions MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Expressing Intentions MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Expressing Intentions MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Expressing Intentions MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Family Members Exercise/v1/clarity.json
+exercises-evaluation/outputs/Family Members Exercise/v1/distractor_quality.json
+exercises-evaluation/outputs/Family Members Exercise/v1/explanation_quality.json
+exercises-evaluation/outputs/Family Members Exercise/v1/language_accuracy.json
+exercises-evaluation/outputs/Family Members Exercise/v1/level_appropriateness.json
+exercises-evaluation/outputs/Food & Drinks Exercise/v1/clarity.json
+exercises-evaluation/outputs/Food & Drinks Exercise/v1/distractor_quality.json
+exercises-evaluation/outputs/Food & Drinks Exercise/v1/explanation_quality.json
+exercises-evaluation/outputs/Food & Drinks Exercise/v1/language_accuracy.json
+exercises-evaluation/outputs/Food & Drinks Exercise/v1/level_appropriateness.json
+exercises-evaluation/outputs/Formal Email Requesting Information/v1/clarity.json
+exercises-evaluation/outputs/Formal Email Requesting Information/v1/distractor_quality.json
+exercises-evaluation/outputs/Formal Email Requesting Information/v1/explanation_quality.json
+exercises-evaluation/outputs/Formal Email Requesting Information/v1/language_accuracy.json
+exercises-evaluation/outputs/Formal Email Requesting Information/v1/level_appropriateness.json
+exercises-evaluation/outputs/Future Plans MCQ/v1/clarity.json
+exercises-evaluation/outputs/Future Plans MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Future Plans MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Future Plans MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Future Plans MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Future Time Clauses MCQ/v1/clarity.json
+exercises-evaluation/outputs/Future Time Clauses MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Future Time Clauses MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Future Time Clauses MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Future Time Clauses MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Future in the Past MCQ/v1/clarity.json
+exercises-evaluation/outputs/Future in the Past MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Future in the Past MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Future in the Past MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Future in the Past MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Grammar - Hypothetical Situations - Exercise 3/v1/clarity.json
+exercises-evaluation/outputs/Grammar - Hypothetical Situations - Exercise 3/v1/distractor_quality.json
+exercises-evaluation/outputs/Grammar - Hypothetical Situations - Exercise 3/v1/explanation_quality.json
+exercises-evaluation/outputs/Grammar - Hypothetical Situations - Exercise 3/v1/language_accuracy.json
+exercises-evaluation/outputs/Grammar - Hypothetical Situations - Exercise 3/v1/level_appropriateness.json
+exercises-evaluation/outputs/Grammar MCQ - Defining Relative Clauses/v1/clarity.json
+exercises-evaluation/outputs/Grammar MCQ - Defining Relative Clauses/v1/distractor_quality.json
+exercises-evaluation/outputs/Grammar MCQ - Defining Relative Clauses/v1/explanation_quality.json
+exercises-evaluation/outputs/Grammar MCQ - Defining Relative Clauses/v1/language_accuracy.json
+exercises-evaluation/outputs/Grammar MCQ - Defining Relative Clauses/v1/level_appropriateness.json
+exercises-evaluation/outputs/Hobbies Reading Comprehension MCQ/v1/clarity.json
+exercises-evaluation/outputs/Hobbies Reading Comprehension MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Hobbies Reading Comprehension MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Hobbies Reading Comprehension MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Hobbies Reading Comprehension MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Instant Decisions/v1/clarity.json
+exercises-evaluation/outputs/Instant Decisions/v1/distractor_quality.json
+exercises-evaluation/outputs/Instant Decisions/v1/explanation_quality.json
+exercises-evaluation/outputs/Instant Decisions/v1/language_accuracy.json
+exercises-evaluation/outputs/Instant Decisions/v1/level_appropriateness.json
+exercises-evaluation/outputs/Listening - Contrasting Meanings with Modal Verbs/v1/clarity.json
+exercises-evaluation/outputs/Listening - Contrasting Meanings with Modal Verbs/v1/distractor_quality.json
+exercises-evaluation/outputs/Listening - Contrasting Meanings with Modal Verbs/v1/explanation_quality.json
+exercises-evaluation/outputs/Listening - Contrasting Meanings with Modal Verbs/v1/language_accuracy.json
+exercises-evaluation/outputs/Listening - Contrasting Meanings with Modal Verbs/v1/level_appropriateness.json
+exercises-evaluation/outputs/Listening - Inference with Modal Verbs/v1/clarity.json
+exercises-evaluation/outputs/Listening - Inference with Modal Verbs/v1/distractor_quality.json
+exercises-evaluation/outputs/Listening - Inference with Modal Verbs/v1/explanation_quality.json
+exercises-evaluation/outputs/Listening - Inference with Modal Verbs/v1/language_accuracy.json
+exercises-evaluation/outputs/Listening - Inference with Modal Verbs/v1/level_appropriateness.json
+exercises-evaluation/outputs/Listening - Modal Verbs for Advice and Suggestion/v1/clarity.json
+exercises-evaluation/outputs/Listening - Modal Verbs for Advice and Suggestion/v1/distractor_quality.json
+exercises-evaluation/outputs/Listening - Modal Verbs for Advice and Suggestion/v1/explanation_quality.json
+exercises-evaluation/outputs/Listening - Modal Verbs for Advice and Suggestion/v1/language_accuracy.json
+exercises-evaluation/outputs/Listening - Modal Verbs for Advice and Suggestion/v1/level_appropriateness.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Deduction/v1/clarity.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Deduction/v1/distractor_quality.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Deduction/v1/explanation_quality.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Deduction/v1/language_accuracy.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Deduction/v1/level_appropriateness.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Speculation/v1/clarity.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Speculation/v1/distractor_quality.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Speculation/v1/explanation_quality.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Speculation/v1/language_accuracy.json
+exercises-evaluation/outputs/Listening - Modal Verbs of Speculation/v1/level_appropriateness.json
+exercises-evaluation/outputs/Listening Comprehension - Identifying Subtle Irony/v1/clarity.json
+exercises-evaluation/outputs/Listening Comprehension - Identifying Subtle Irony/v1/distractor_quality.json
+exercises-evaluation/outputs/Listening Comprehension - Identifying Subtle Irony/v1/explanation_quality.json
+exercises-evaluation/outputs/Listening Comprehension - Identifying Subtle Irony/v1/language_accuracy.json
+exercises-evaluation/outputs/Listening Comprehension - Identifying Subtle Irony/v1/level_appropriateness.json
+exercises-evaluation/outputs/Listening Comprehension - Inference - Exercise 5/v1/clarity.json
+exercises-evaluation/outputs/Listening Comprehension - Inference - Exercise 5/v1/distractor_quality.json
+exercises-evaluation/outputs/Listening Comprehension - Inference - Exercise 5/v1/explanation_quality.json
+exercises-evaluation/outputs/Listening Comprehension - Inference - Exercise 5/v1/language_accuracy.json
+exercises-evaluation/outputs/Listening Comprehension - Inference - Exercise 5/v1/level_appropriateness.json
+exercises-evaluation/outputs/Listening Comprehension MCQ - Understanding Instructions/v1/clarity.json
+exercises-evaluation/outputs/Listening Comprehension MCQ - Understanding Instructions/v1/distractor_quality.json
+exercises-evaluation/outputs/Listening Comprehension MCQ - Understanding Instructions/v1/explanation_quality.json
+exercises-evaluation/outputs/Listening Comprehension MCQ - Understanding Instructions/v1/language_accuracy.json
+exercises-evaluation/outputs/Listening Comprehension MCQ - Understanding Instructions/v1/level_appropriateness.json
+exercises-evaluation/outputs/Literary Analysis MCQ - Exercise 1/v1/clarity.json
+exercises-evaluation/outputs/Literary Analysis MCQ - Exercise 1/v1/distractor_quality.json
+exercises-evaluation/outputs/Literary Analysis MCQ - Exercise 1/v1/explanation_quality.json
+exercises-evaluation/outputs/Literary Analysis MCQ - Exercise 1/v1/language_accuracy.json
+exercises-evaluation/outputs/Literary Analysis MCQ - Exercise 1/v1/level_appropriateness.json
+exercises-evaluation/outputs/Mixed Reported Speech - Exercise 5/v1/clarity.json
+exercises-evaluation/outputs/Mixed Reported Speech - Exercise 5/v1/distractor_quality.json
+exercises-evaluation/outputs/Mixed Reported Speech - Exercise 5/v1/explanation_quality.json
+exercises-evaluation/outputs/Mixed Reported Speech - Exercise 5/v1/language_accuracy.json
+exercises-evaluation/outputs/Mixed Reported Speech - Exercise 5/v1/level_appropriateness.json
+exercises-evaluation/outputs/Narrative Writing Show, Don't Tell/v1/clarity.json
+exercises-evaluation/outputs/Narrative Writing Show, Don't Tell/v1/distractor_quality.json
+exercises-evaluation/outputs/Narrative Writing Show, Don't Tell/v1/explanation_quality.json
+exercises-evaluation/outputs/Narrative Writing Show, Don't Tell/v1/language_accuracy.json
+exercises-evaluation/outputs/Narrative Writing Show, Don't Tell/v1/level_appropriateness.json
+exercises-evaluation/outputs/Ordering Food MCQ/v1/clarity.json
+exercises-evaluation/outputs/Ordering Food MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Ordering Food MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Ordering Food MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Ordering Food MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Predicting the Future MCQ/v1/clarity.json
+exercises-evaluation/outputs/Predicting the Future MCQ/v1/distractor_quality.json
+exercises-evaluation/outputs/Predicting the Future MCQ/v1/explanation_quality.json
+exercises-evaluation/outputs/Predicting the Future MCQ/v1/language_accuracy.json
+exercises-evaluation/outputs/Predicting the Future MCQ/v1/level_appropriateness.json
+exercises-evaluation/outputs/Predicting the Weather/v1/clarity.json
+exercises-evaluation/outputs/Predicting the Weather/v1/distractor_quality.json
+exercises-evaluation/outputs/Predicting the Weather/v1/explanation_quality.json
+exercises-evaluation/outputs/Predicting the Weather/v1/language_accuracy.json
+exercises-evaluation/outputs/Predicting the Weather/v1/level_appropriateness.json
+exercises-evaluation/outputs/Prepositions of Place Exercise/v1/clarity.json
+exercises-evaluation/outputs/Prepositions of Place Exercise/v1/distractor_quality.json
+exercises-evaluation/outputs/Prepositions of Place Exercise/v1/explanation_quality.json
+exercises-evaluation/outputs/Prepositions of Place Exercise/v1/language_accuracy.json
+exercises-evaluation/outputs/Prepositions of Place Exercise/v1/level_appropriateness.json
+exercises-evaluation/outputs/Present Perfect and Past Simple Contrasts/v1/clarity.json
+exercises-evaluation/outputs/Present Perfect and Past Simple Contrasts/v1/distractor_quality.json
+exercises-evaluation/outputs/Present Perfect and Past Simple Contrasts/v1/explanation_quality.json
+exercises-evaluation/outputs/Present Perfect and Past Simple Contrasts/v1/language_accuracy.json
+exercises-evaluation/outputs/Present Perfect and Past Simple Contrasts/v1/level_appropriateness.json
+exercises-evaluation/outputs/Present Perfect and Time Expressions/v1/clarity.json
+exercises-evaluation/outputs/Present Perfect and Time Expressions/v1/distractor_quality.json
+exercises-evaluation/outputs/Present Perfect and Time Expressions/v1/explanation_quality.json
+exercises-evaluation/outputs/Present Perfect and Time Expressions/v1/language_accuracy.json
+exercises-evaluation/outputs/Present Perfect and Time Expressions/v1/level_appropriateness.json
+exercises-evaluation/outputs/Present Perfect for Unfinished Actions/v1/clarity.json
+exercises-evaluation/outputs/Present Perfect for Unfinished Actions/v1/distractor_quality.json
+exercises-evaluation/outputs/Present Perfect for Unfinished Actions/v1/explanation_quality.json
+exercises-evaluation/outputs/Present Perfect for Unfinished Actions/v1/language_accuracy.json
+exercises-evaluation/outputs/Present Perfect for Unfinished Actions/v1/level_appropriateness.json
+exercises-evaluation/outputs/Present Perfect with 'Ever' and 'Never'/v1/clarity.json
+exercises-evaluation/outputs/Present Perfect with 'Ever' and 'Never'/v1/distractor_quality.json
+exercises-evaluation/outputs/Present Perfect with 'Ever' and 'Never'/v1/explanation_quality.json
+exercises-evaluation/outputs/Present Perfect with 'Ever' and 'Never'/v1/language_accuracy.json
+exercises-evaluation/outputs/Present Perfect with 'Ever' and 'Never'/v1/level_appropriateness.json
+exercises-evaluation/outputs/Present Perfect with Resulting State/v1/clarity.json
+exercises-evaluation/outputs/Present Perfect with Resulting State/v1/distractor_quality.json
+exercises-evaluation/outputs/Present Perfect with Resulting State/v1/explanation_quality.json
+exercises-evaluation/outputs/Present Perfect with Resulting State/v1/language_accuracy.json
+exercises-evaluation/outputs/Present Perfect with Resulting State/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reading Comprehension - Inference and Implication/v1/clarity.json
+exercises-evaluation/outputs/Reading Comprehension - Inference and Implication/v1/distractor_quality.json
+exercises-evaluation/outputs/Reading Comprehension - Inference and Implication/v1/explanation_quality.json
+exercises-evaluation/outputs/Reading Comprehension - Inference and Implication/v1/language_accuracy.json
+exercises-evaluation/outputs/Reading Comprehension - Inference and Implication/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reading Comprehension MCQ - Identifying Main Idea/v1/clarity.json
+exercises-evaluation/outputs/Reading Comprehension MCQ - Identifying Main Idea/v1/distractor_quality.json
+exercises-evaluation/outputs/Reading Comprehension MCQ - Identifying Main Idea/v1/explanation_quality.json
+exercises-evaluation/outputs/Reading Comprehension MCQ - Identifying Main Idea/v1/language_accuracy.json
+exercises-evaluation/outputs/Reading Comprehension MCQ - Identifying Main Idea/v1/level_appropriateness.json
+exercises-evaluation/outputs/Regret and Missed Opportunities/v1/clarity.json
+exercises-evaluation/outputs/Regret and Missed Opportunities/v1/distractor_quality.json
+exercises-evaluation/outputs/Regret and Missed Opportunities/v1/explanation_quality.json
+exercises-evaluation/outputs/Regret and Missed Opportunities/v1/language_accuracy.json
+exercises-evaluation/outputs/Regret and Missed Opportunities/v1/level_appropriateness.json
+exercises-evaluation/outputs/Report Writing Objectivity/v1/clarity.json
+exercises-evaluation/outputs/Report Writing Objectivity/v1/distractor_quality.json
+exercises-evaluation/outputs/Report Writing Objectivity/v1/explanation_quality.json
+exercises-evaluation/outputs/Report Writing Objectivity/v1/language_accuracy.json
+exercises-evaluation/outputs/Report Writing Objectivity/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech - Exercise 1 Pronoun Change/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech - Exercise 1 Pronoun Change/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 1 Pronoun Change/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 1 Pronoun Change/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech - Exercise 1 Pronoun Change/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech - Exercise 2 Tense Shift/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech - Exercise 2 Tense Shift/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 2 Tense Shift/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 2 Tense Shift/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech - Exercise 2 Tense Shift/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech - Exercise 3 Time Expressions/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech - Exercise 3 Time Expressions/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 3 Time Expressions/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 3 Time Expressions/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech - Exercise 3 Time Expressions/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech - Exercise 4 Questions/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech - Exercise 4 Questions/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 4 Questions/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 4 Questions/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech - Exercise 4 Questions/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech - Exercise 5 Commands/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech - Exercise 5 Commands/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 5 Commands/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech - Exercise 5 Commands/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech - Exercise 5 Commands/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech Time Expressions - Exercise 4/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech Time Expressions - Exercise 4/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech Time Expressions - Exercise 4/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech Time Expressions - Exercise 4/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech Time Expressions - Exercise 4/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech Transformation - Exercise 1/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech Transformation - Exercise 1/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech Transformation - Exercise 1/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech Transformation - Exercise 1/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech Transformation - Exercise 1/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech with Commands - Exercise 3/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech with Commands - Exercise 3/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech with Commands - Exercise 3/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech with Commands - Exercise 3/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech with Commands - Exercise 3/v1/level_appropriateness.json
+exercises-evaluation/outputs/Reported Speech with Question - Exercise 2/v1/clarity.json
+exercises-evaluation/outputs/Reported Speech with Question - Exercise 2/v1/distractor_quality.json
+exercises-evaluation/outputs/Reported Speech with Question - Exercise 2/v1/explanation_quality.json
+exercises-evaluation/outputs/Reported Speech with Question - Exercise 2/v1/language_accuracy.json
+exercises-evaluation/outputs/Reported Speech with Question - Exercise 2/v1/level_appropriateness.json
+exercises-evaluation/outputs/Restaurant Order (A2)/v1/clarity.json
+exercises-evaluation/outputs/Restaurant Order (A2)/v1/distractor_quality.json
+exercises-evaluation/outputs/Restaurant Order (A2)/v1/explanation_quality.json
+exercises-evaluation/outputs/Restaurant Order (A2)/v1/language_accuracy.json
+exercises-evaluation/outputs/Restaurant Order (A2)/v1/level_appropriateness.json
+exercises-evaluation/outputs/Scheduled Events/v1/clarity.json
+exercises-evaluation/outputs/Scheduled Events/v1/distractor_quality.json
+exercises-evaluation/outputs/Scheduled Events/v1/explanation_quality.json
+exercises-evaluation/outputs/Scheduled Events/v1/language_accuracy.json
+exercises-evaluation/outputs/Scheduled Events/v1/level_appropriateness.json
+exercises-evaluation/outputs/Shopping (A2)/v1/clarity.json
+exercises-evaluation/outputs/Shopping (A2)/v1/distractor_quality.json
+exercises-evaluation/outputs/Shopping (A2)/v1/explanation_quality.json
+exercises-evaluation/outputs/Shopping (A2)/v1/language_accuracy.json
+exercises-evaluation/outputs/Shopping (A2)/v1/level_appropriateness.json
+exercises-evaluation/outputs/Speaking - Register and Formality/v1/clarity.json
+exercises-evaluation/outputs/Speaking - Register and Formality/v1/distractor_quality.json
+exercises-evaluation/outputs/Speaking - Register and Formality/v1/explanation_quality.json
+exercises-evaluation/outputs/Speaking - Register and Formality/v1/language_accuracy.json
+exercises-evaluation/outputs/Speaking - Register and Formality/v1/level_appropriateness.json
+exercises-evaluation/outputs/Speculative Fiction - Alternate Realities/v1/clarity.json
+exercises-evaluation/outputs/Speculative Fiction - Alternate Realities/v1/distractor_quality.json
+exercises-evaluation/outputs/Speculative Fiction - Alternate Realities/v1/explanation_quality.json
+exercises-evaluation/outputs/Speculative Fiction - Alternate Realities/v1/language_accuracy.json
+exercises-evaluation/outputs/Speculative Fiction - Alternate Realities/v1/level_appropriateness.json
+exercises-evaluation/outputs/Vocabulary MCQ - Collocations with 'Make'/v1/clarity.json
+exercises-evaluation/outputs/Vocabulary MCQ - Collocations with 'Make'/v1/distractor_quality.json
+exercises-evaluation/outputs/Vocabulary MCQ - Collocations with 'Make'/v1/explanation_quality.json
+exercises-evaluation/outputs/Vocabulary MCQ - Collocations with 'Make'/v1/language_accuracy.json
+exercises-evaluation/outputs/Vocabulary MCQ - Collocations with 'Make'/v1/level_appropriateness.json
+exercises-evaluation/outputs/Vocabulary Nuance MCQ - Exercise 2/v1/clarity.json
+exercises-evaluation/outputs/Vocabulary Nuance MCQ - Exercise 2/v1/distractor_quality.json
+exercises-evaluation/outputs/Vocabulary Nuance MCQ - Exercise 2/v1/explanation_quality.json
+exercises-evaluation/outputs/Vocabulary Nuance MCQ - Exercise 2/v1/language_accuracy.json
+exercises-evaluation/outputs/Vocabulary Nuance MCQ - Exercise 2/v1/level_appropriateness.json
+exercises-evaluation/outputs/Weather Report (A2)/v1/clarity.json
+exercises-evaluation/outputs/Weather Report (A2)/v1/distractor_quality.json
+exercises-evaluation/outputs/Weather Report (A2)/v1/explanation_quality.json
+exercises-evaluation/outputs/Weather Report (A2)/v1/language_accuracy.json
+exercises-evaluation/outputs/Weather Report (A2)/v1/level_appropriateness.json
+exercises-evaluation/outputs/Writing MCQ - Formal Letter Closing/v1/clarity.json
+exercises-evaluation/outputs/Writing MCQ - Formal Letter Closing/v1/distractor_quality.json
+exercises-evaluation/outputs/Writing MCQ - Formal Letter Closing/v1/explanation_quality.json
+exercises-evaluation/outputs/Writing MCQ - Formal Letter Closing/v1/language_accuracy.json
+exercises-evaluation/outputs/Writing MCQ - Formal Letter Closing/v1/level_appropriateness.json
+exercises-evaluation/outputs/Writing Style - Formal vs. Informal - Exercise 4/v1/clarity.json
+exercises-evaluation/outputs/Writing Style - Formal vs. Informal - Exercise 4/v1/distractor_quality.json
+exercises-evaluation/outputs/Writing Style - Formal vs. Informal - Exercise 4/v1/explanation_quality.json
+exercises-evaluation/outputs/Writing Style - Formal vs. Informal - Exercise 4/v1/language_accuracy.json
+exercises-evaluation/outputs/Writing Style - Formal vs. Informal - Exercise 4/v1/level_appropriateness.json
+exercises-evaluation/outputs/Writing Task - Rhetorical Analysis/v1/clarity.json
+exercises-evaluation/outputs/Writing Task - Rhetorical Analysis/v1/distractor_quality.json
+exercises-evaluation/outputs/Writing Task - Rhetorical Analysis/v1/explanation_quality.json
+exercises-evaluation/outputs/Writing Task - Rhetorical Analysis/v1/language_accuracy.json
+exercises-evaluation/outputs/Writing Task - Rhetorical Analysis/v1/level_appropriateness.json
+exercises-evaluation/src/__init__.py
+exercises-evaluation/src/analysis.py
+exercises-evaluation/src/config.py
+exercises-evaluation/src/evaluation.py
+exercises-evaluation/src/prompts.py
+exercises-evaluation/src/generative_models/__init__.py
+exercises-evaluation/src/generative_models/anthropic_model.py
+exercises-evaluation/src/generative_models/google_model.py
+exercises-evaluation/src/generative_models/llm.py
+exercises-evaluation/src/generative_models/local_model.py
+exercises-evaluation/src/generative_models/openai_model.py
+exercises-evaluation/src/models/__init__.py
+exercises-evaluation/src/models/analysis_context.py
+exercises-evaluation/src/models/criterion.py
+exercises-evaluation/src/models/evaluation_context.py
+exercises-evaluation/src/repositories/__init__.py
+exercises-evaluation/src/repositories/criterion.py
+exercises-evaluation/src/types/__init__.py
+exercises-evaluation/src/types/dataclasses.py
+exercises-evaluation/src/types/openai.py
+exercises-evaluation/src/utils/__init__.py
+exercises-evaluation/src/utils/anthropic_ai.py
+exercises-evaluation/src/utils/dataclass.py
+exercises-evaluation/src/utils/generative_models.py
+exercises-evaluation/src/utils/google_ai.py
+exercises-evaluation/src/utils/openai_ai.py

@@ -1,0 +1,106 @@
+[
+    {
+        "label": "arxiv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "arxiv",
+        "description": "arxiv",
+        "detail": "arxiv",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata_cache",
+        "importPath": "gutenberg.acquire",
+        "description": "gutenberg.acquire",
+        "isExtraImport": true,
+        "detail": "gutenberg.acquire",
+        "documentation": {}
+    },
+    {
+        "label": "get_etexts",
+        "importPath": "gutenberg.query",
+        "description": "gutenberg.query",
+        "isExtraImport": true,
+        "detail": "gutenberg.query",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "importPath": "gutenberg.query",
+        "description": "gutenberg.query",
+        "isExtraImport": true,
+        "detail": "gutenberg.query",
+        "documentation": {}
+    },
+    {
+        "label": "out_dir",
+        "kind": 5,
+        "importPath": "crawl_arxiv",
+        "description": "crawl_arxiv",
+        "peekOfCode": "out_dir = Path(\"data/arxiv\")\nout_dir.mkdir(parents=True, exist_ok=True)\n# 1. Chỉ khởi tạo page_size và (tuỳ chọn) num_retries\nclient = arxiv.Client(\n    page_size=100,  # max 100 kết quả/trang\n    num_retries=5,  # retry 5 lần nếu gặp lỗi mạng\n)\nsearch = arxiv.Search(\n    query=\"English language learning\",\n    max_results=100,",
+        "detail": "crawl_arxiv",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "crawl_arxiv",
+        "description": "crawl_arxiv",
+        "peekOfCode": "client = arxiv.Client(\n    page_size=100,  # max 100 kết quả/trang\n    num_retries=5,  # retry 5 lần nếu gặp lỗi mạng\n)\nsearch = arxiv.Search(\n    query=\"English language learning\",\n    max_results=100,\n    sort_by=arxiv.SortCriterion.SubmittedDate,\n)\nfor result in client.results(search):",
+        "detail": "crawl_arxiv",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 5,
+        "importPath": "crawl_arxiv",
+        "description": "crawl_arxiv",
+        "peekOfCode": "search = arxiv.Search(\n    query=\"English language learning\",\n    max_results=100,\n    sort_by=arxiv.SortCriterion.SubmittedDate,\n)\nfor result in client.results(search):\n    print(f\"{result.title}\\n{result.pdf_url}\\n\")\n    paper_id = result.entry_id.split(\"/\")[-1]  # e.g. \"2506.06281v1\"\n    filename = f\"{paper_id}.pdf\"  # e.g. \"2506.06281v1.pdf\"\n    pdf_path = out_dir / filename",
+        "detail": "crawl_arxiv",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "kind": 5,
+        "importPath": "download_gutenberg",
+        "description": "download_gutenberg",
+        "peekOfCode": "cache = get_metadata_cache()\nif not cache.exists:\n    print(\"Cache chưa có, đang populate (có thể mất ~18h lần đầu)…\")\n    cache.populate()   # tải về và parse toàn bộ metadata :contentReference[oaicite:0]{index=0}\nelse:\n    print(\"Cache đã sẵn sàng!\")\n# ------------------\n# 2) LẤY E-TEXT IDs THEO SUBJECT\n# ------------------\nSUBJECT = \"English grammar\"",
+        "detail": "download_gutenberg",
+        "documentation": {}
+    },
+    {
+        "label": "SUBJECT",
+        "kind": 5,
+        "importPath": "download_gutenberg",
+        "description": "download_gutenberg",
+        "peekOfCode": "SUBJECT = \"English grammar\"\netext_ids = get_etexts('subject', SUBJECT)\nprint(f\"Found {len(etext_ids)} eText IDs for subject '{SUBJECT}':\")\nprint(etext_ids)  # ví dụ: frozenset({1234, 5678, …}) :contentReference[oaicite:1]{index=1}\n# ------------------\n# 3) IN TITLE & AUTHOR CỦA TỪNG TEXT\n# ------------------\nprint(\"\\nMetadata của các tài liệu:\")\nfor eid in etext_ids:\n    titles  = get_metadata('title',  eid)",
+        "detail": "download_gutenberg",
+        "documentation": {}
+    },
+    {
+        "label": "etext_ids",
+        "kind": 5,
+        "importPath": "download_gutenberg",
+        "description": "download_gutenberg",
+        "peekOfCode": "etext_ids = get_etexts('subject', SUBJECT)\nprint(f\"Found {len(etext_ids)} eText IDs for subject '{SUBJECT}':\")\nprint(etext_ids)  # ví dụ: frozenset({1234, 5678, …}) :contentReference[oaicite:1]{index=1}\n# ------------------\n# 3) IN TITLE & AUTHOR CỦA TỪNG TEXT\n# ------------------\nprint(\"\\nMetadata của các tài liệu:\")\nfor eid in etext_ids:\n    titles  = get_metadata('title',  eid)\n    authors = get_metadata('author', eid)",
+        "detail": "download_gutenberg",
+        "documentation": {}
+    }
+]

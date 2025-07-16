@@ -2,10 +2,10 @@ from pydantic_settings import BaseSettings, SettingsConfigDict, EnvSettingsSourc
 from typing import Literal
 
 class Settings(BaseSettings):
-    mysql_user: str
+    mysql_user: str 
     mysql_password: str
-    mysql_host: str = "localhost"
-    mysql_port: int = 3306
+    mysql_host: str 
+    mysql_port: int
     mysql_db: str
 
     # Ollama Configuration with smaller default model
